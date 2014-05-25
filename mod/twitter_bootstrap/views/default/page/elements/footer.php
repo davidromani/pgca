@@ -16,8 +16,7 @@ $powered_url = elgg_get_site_url() . "_graphics/powered_by_elgg_badge_drk_bckgnd
 echo '<div class="span6">';
 echo <<<HTML
 
-Twitter Bootstrap for Elgg is made possible by the awesome <a href="http://elgg.org">Elgg engine</a> and 
-impressive <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.
+Página web allotjada a <a target="_blank" href="http://www.flux.cat">flux.cat</a>
 
 HTML;
 
