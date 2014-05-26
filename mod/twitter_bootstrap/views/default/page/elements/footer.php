@@ -16,7 +16,7 @@ $powered_url = elgg_get_site_url() . "_graphics/powered_by_elgg_badge_drk_bckgnd
 echo '<div class="span6">';
 echo <<<HTML
 
-Pàgina web allotjada a <a target="_blank" href="http://www.flux.cat">flux.cat</a>
+Pàgina web allotjada a <a target="_blank" href="http://www.flux.cat">www.flux.cat</a>
 
 HTML;
 
