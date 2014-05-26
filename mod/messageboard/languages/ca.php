@@ -1,67 +1,46 @@
 <?php
 
+// Generado por translationbrowser 
+
 $catalan = array( 
-	/**
-	 * Menu items and titles
-	 */
-	'messageboard:board' => "Mur",
-	'messageboard:messageboard' => "mur",
-	'messageboard:viewall' => "Veure-ho tot",
-	'messageboard:postit' => "Publicar",
-	'messageboard:history:title' => "Historial",
-	'messageboard:none' => "Encara no hi ha res en aquest mur",
-	'messageboard:num_display' => "Missatges a mostrar",
-	'messageboard:desc' => "AixÚ Ès un mur en el qual poden posar comentaris altres usuaris. VostË tambÈ pot comentar en el dels altres.",
-
-	'messageboard:user' => "Mur de %s",
-
-	'messageboard:replyon' => 'respondre',
-	'messageboard:history' => "historial",
-
-	'messageboard:owner' => 'mur de %s',
-	'messageboard:owner_history' => '%s ha comentat en el mur de %s',
-
-	/**
-	 * Message board widget river
-	 */
-	'river:messageboard:user:default' => "%s ha comentat en el mur de %s",
-
-	/**
-	 * Status messages
-	 */
-	'messageboard:posted' => "Comentari en el mur afegit.",
-	'messageboard:deleted' => "Comentari eliminat.",
-
-	/**
-	 * Email messages
-	 */
-	'messageboard:email:subject' => 'Hi ha un missatge nou en el mur!',
-	'messageboard:email:body' => "Hi ha un comentari nou en el mur de %s. Diu:
+	 'messageboard:board'  =>  "Tauler d'anuncis" , 
+	 'messageboard:messageboard'  =>  "Tauler d'anuncis" , 
+	 'messageboard:viewall'  =>  "Veure tots" , 
+	 'messageboard:postit'  =>  "Publicar" , 
+	 'messageboard:history'  =>  "hist√≤ria" , 
+	 'messageboard:none'  =>  "No hi ha res en aquest tauler d'anuncis, encara" , 
+	 'messageboard:num_display'  =>  "Nombre de missatges a veure" , 
+	 'messageboard:desc'  =>  "Aquest √©s un tauler d'anuncis que pots posar en el teu perfil i on altres persones usu√†ries poden deixar un comentari." , 
+	 'messageboard:user'  =>  "Tauler d'anuncis de %s" , 
+	 'messageboard:replyon'  =>  "Donar resposta a" , 
+	 'messageboard:river:annotate'  =>  "%s tens un comentari nou en el teu tauler d'anuncis. " , 
+	 'messageboard:river:create'  =>  "%s ha afegit el widget de tauler d'anuncis." , 
+	 'messageboard:river:update'  =>  "%s has actualitzat el teu widget en el tauler d'anuncis. " , 
+	 'messageboard:river:added'  =>  "%s ha escrit un missatge a" , 
+	 'messageboard:river:messageboard'  =>  "tauler d'anuncis" , 
+	 'messageboard:posted'  =>  "El comentari ha estat publicat correctament en el tauler d'anuncis." , 
+	 'messageboard:deleted'  =>  "El comentari ha estat esborrat." , 
+	 'messageboard:email:subject'  =>  "Tens un missatge nou en el tauler d'anuncis!" , 
+	 'messageboard:email:body'  =>  "%s t'ha deixat el seg√ºent comentari:
 
 %s
 
+Per veure els comentaris en el teu tauler d'anuncis, fes click en el seg√ºent link:
 
-Per veure els comentaris del mur, premi aqu&iacute;:
+%s
 
-	%s
+Per consultar el perfil de %s, fes click en aquest link:
 
-Per veure el perfil de %s, premi aqu&iacute;:
+%s
 
-	%s
-
-Si us plau, no respogui aquest missatge de correu.",
-
-	/**
-	 * Error messages
-	 */
-	'messageboard:blank' => "Ens sap greu, ha d¥ingressar contingut a l¥‡rea de missatge per poder desar.",
-	'messageboard:notfound' => "Ens sap greu, no s¥ha pogut trobar l¥element especificat.",
-	'messageboard:notdeleted' => "Ens sap greu, no s¥ha pogut eliminar el missatge.",
-	'messageboard:somethingwentwrong' => "Asseguri¥s d¥haver escrit un missatge.",
-
-	'messageboard:failure' => "Hi ha hagut una errada inesperada a l¥hora d¥intentar publicar el missatge. Si us plau, torni-ho a intentar",
-
-);
+No donis resposta a aquest email." , 
+	 'messageboard:blank'  =>  "Necessites posar alguna cosa en l'√†rea de missatge abans d'enviar-ho." , 
+	 'messageboard:notfound'  =>  "No s'ha trobat l'element especificat." , 
+	 'messageboard:notdeleted'  =>  "El missatge no ha pogut esborrar-se." , 
+	 'messageboard:somethingwentwrong'  =>  "Alguna cosa estranya ha passat. Prova de nou o posa't en contacte amb l'equip administrador." , 
+	 'messageboard:failure'  =>  "S'ha produit un error en el moment d'afegir el teu missatge. Prova de nou. " , 
+	 'messageboard:history:title'  =>  "Hist√≤ria"
+); 
 
 add_translation('ca', $catalan); 
 

@@ -1,14 +1,11 @@
 <?php
-/**
- * TinyMCE language pack.
- *
- * @package ElggTinyMCE
- */
 
-$catalan = array(
-	'tinymce:remove' => "Llevar editor",
-	'tinymce:add' => "Afegir editor",
-	'tinymce:word_count' => 'Quantitat de paraules: ',
-);
+// Generado por translationbrowser 
 
-add_translation("ca", $catalan);
+$catalan = array( 
+	 'tinymce:remove'  =>  "Afegir/treure editor"
+); 
+
+add_translation('ca', $catalan); 
+
+?>

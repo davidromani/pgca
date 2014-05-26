@@ -1,27 +1,28 @@
 <?php
-/**
- * External pages English language file
- */
 
-$catalan = array(
+// Generat per la traducció del navegador 
 
-	/**
-	 * Menu items and titles
-	 */
-	'expages' => "P&agrave;gines del lloc",
-	'admin:appearance:expages' => "P&agrave;gines del lloc",
-	'expages:about' => "Sobre",
-	'expages:terms' => "Termes",
-	'expages:privacy' => "Privacitat",
-	'expages:contact' => "Contacte",
+$catalan = array( 
+	 'expages'  =>  "Pàgines externes" , 
+	 'expages:frontpage'  =>  "Portada" , 
+	 'expages:about'  =>  "Sobre" , 
+	 'expages:terms'  =>  "Condicions" , 
+	 'expages:privacy'  =>  "Privacitat" , 
+	 'expages:analytics'  =>  "Anàlisi" , 
+	 'expages:contact'  =>  "Contacte" , 
+	 'expages:nopreview'  =>  "No és possible la vista prèvia de moment" , 
+	 'expages:preview'  =>  "Vista prèvia" , 
+	 'expages:notset'  =>  "Aquesta pàgina encara no s'ha desenvolupat." , 
+	 'expages:lefthand'  =>  "La part esquerra d'informació" , 
+	 'expages:righthand'  =>  "La part dreta de la informació" , 
+	 'expages:addcontent'  =>  "Pots afegir continguts aquí mitjançant les eines d'administració. Cerca l'enllaç de les pàgines externes sota l'admin." , 
+	 'item:object:front'  =>  "Davant els articles" , 
+	 'expages:posted'  =>  "La teva pàgina s'ha actualitzat correctament." , 
+	 'expages:deleted'  =>  "El teu post s'ha eliminat correctament." , 
+	 'expages:deleteerror'  =>  "Hi ha problemes per eliminar l'última pàgina" , 
+	 'expages:error'  =>  "Ha hagut un error. Prova de nou i si el problema continua contacta amb l'equip administrador"
+); 
 
-	'expages:notset' => "Aquestes p&agrave;gines encara no han estat configurades.",
+add_translation('ca', $catalan); 
 
-	/**
-	 * Status messages
-	 */
-	'expages:posted' => "La seva p&agrave;gina s&acute;ha actualitzat correctament.",
-	'expages:error' => "No s&acute;ha pogut desar la p&agrave;gina.",
-);
-
-add_translation("ca", $catalan);
+?>

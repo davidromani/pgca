@@ -1,43 +1,44 @@
 <?php
 /**
- * Likes catalan language file
+ * Likes Catalan language file
  */
 
 $catalan = array(
-	'likes:this' => 'Li agrada aixÚ',
-	'likes:deleted' => 'Ja no li agrada aixÚ',
-	'likes:see' => 'Veure a qui agrada aixÚ',
-	'likes:remove' => 'Ja no m¥agrada',
-	'likes:notdeleted' => 'Hi ha hagut un problema a l&acute;hora d&acute;esborrar el m&acute;agrada',
-	'likes:likes' => 'Ara li agrada aix&ograve;',
-	'likes:failure' => 'Hi ha hagut un problema a l&acute;hora d&acute;afegir el m&acute;agrada',
-	'likes:alreadyliked' => 'Aix&ograve; ja li agradava',
-	'likes:notfound' => 'No s&acute;ha pogut trobar l&acute;element que li agrada',
-	'likes:likethis' => 'M&acute;agrada',
-	'likes:userlikedthis' => '%s m&acute;agrada',
-	'likes:userslikedthis' => '%s m&acute;agrada',
-	'likes:river:annotate' => 'm&acute;agrada',
+    'likes:this' => "li agrada",
+    'likes:deleted' => "Ja no us agrada",
+    'likes:see' => "Visualitzar a qui li agrada",
+    'likes:remove' => "Ja no m'agrada",
+    'likes:notdeleted' => "S'ha produ√Øt un error al suprimir el m'agrada",
+    'likes:likes' => "Ara us agrada",
+    'likes:failure' => "S'ha produ√Øt un error a l'afegir el m'agrada",
+    'likes:alreadyliked' => "Ja us agrada",
+    'likes:notfound' => "No s'ha pogut trobar l'element que us agrada",
+    'likes:likethis' => "M'agrada",
+    'likes:userlikedthis' => "%s li agrada",
+    'likes:userslikedthis' => "%s els agrada",
+    'likes:river:annotate' => "m'agrada",
 
-	'river:likes' => 'm&acute;agraden %s %s',
+    'river:likes' => "m'agraden %s %s",
 
-	// notifications. yikes.
-	'likes:notifications:subject' => '%s m&acute;agrada a la teva publicaci&oacute; "%s"',
-	'likes:notifications:body' => 'Hola %1$s,
+    // notifications. yikes.
+    'likes:notifications:subject' => "%s m'agrada la vostra publicaci√≥ \"%s\"",
+    'likes:notifications:body' =>
+'Hola %1$s,
 
-a %2$s li agrada la teva publicaci&oacute; "%3$s" a %4$s!
+a %2$s li agrada la vostra publicaci√≥ "%3$s" a %4$s!
 
-Pot veure la publicaci&oacute; original aqu&iacute;:
+Visualitzar la publicaci√≥ original:
 
 %5$s
 
-o veure el perfil de %2$s aqu&iacute;:
+o veure el perfil de %2$s aqu√≠:
 
 %6$s
 
-Gr&agrave;cies,
+Gr√†cies,
 %4$s
 ',
+
 );
 
-add_translation('ca', $catalan);
- 
+add_translation("ca", $catalan);

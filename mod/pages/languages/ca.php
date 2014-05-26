@@ -7,95 +7,98 @@
 
 $catalan = array(
 
-	/**
-	 * Menu items and titles
-	 */
-	'pages' => "P&agrave;gines",
-	'pages:owner' => "P&agrave;gines de %s",
-	'pages:friends' => "P&agrave;gines de contactes",
-	'pages:all' => "Totes les p&agrave;gines",
-	'pages:add' => "Afegir p&agrave;gina",
+    /**
+     * Menu items and titles
+     */
 
-	'pages:group' => "P&agrave;gines de grup",
-	'groups:enablepages' => 'Habilitar p&agrave;gines del grup',
+    'pages' => "Pàgines",
+    'pages:owner' => "les pàgines de %s",
+    'pages:friends' => "Les pàgines dels vostres amics",
+    'pages:all' => "Totes les pàgines del lloc web",
+    'pages:add' => "Afegir un pàgina",
 
-	'pages:edit' => "Editar aquesta p&agrave;gina",
-	'pages:delete' => "Eliminar aquesta p&agrave;gina",
-	'pages:history' => "Historial",
-	'pages:view' => "Veure p&agrave;gina",
-	'pages:revision' => "Revisi&oacute;",
+    'pages:group' => "Les pàgines del grup",
+    'groups:enablepages' => "Habilitar les pàgines del grup",
 
-	'pages:navigation' => "Navegaci&oacute;",
-	'pages:via' => "p&agrave;gines via",
-	'item:object:page_top' => 'P&agrave;gines de nivell superior',
-	'item:object:page' => 'P&agrave;gines',
-	'pages:nogroup' => 'El grup no t&eacute; encara cap p&agrave;gina',
-	'pages:more' => 'M&eacute;s p&agrave;gines',
-	'pages:none' => 'Encara no hi ha cap p&agrave;gina creada',
+    'pages:edit' => "Editar la pàgina",
+    'pages:delete' => "Suprimir la pàgina",
+    'pages:history' => "Historial",
+    'pages:view' => "Visualitzar la pàgina",
+    'pages:revision' => "Revisió",
 
-	/**
-	* River
-	**/
-	'river:create:object:page' => '%s ha creat la p&agrave;gina %s',
-	'river:create:object:page_top' => '%s ha creat una p&agrave;gina %s',
-	'river:update:object:page' => '%s ha actualizat la p&agrave;gina %s',
-	'river:update:object:page_top' => '%s ha actualizat una p&agrave;gina %s',
-	'river:comment:object:page' => '%s ha comentat en la p&agrave;gina %s',
-	'river:comment:object:page_top' => '%s ha comentat en la p&agrave;gina %s',
+    'pages:navigation' => "Navegació",
+    'pages:via' => "via pàgines",
+    'item:object:page_top' => "Pàgines del nivell superior",
+    'item:object:page' => "Pàgines",
+    'pages:nogroup' => "Aquest grup no té pàgines",
+    'pages:more' => "Més pàgines",
+    'pages:none' => "Encara no s'ha creat cap pàgina",
 
-	/**
-	 * Form fields
-	 */
-	'pages:title' => 'T&iacute;tol de la p&agrave;gina',
-	'pages:description' => 'Text de la p&agrave;gina',
-	'pages:tags' => 'Etiquetes',
-	'pages:access_id' => 'Acc&eacute;s de lectura',
-	'pages:write_access_id' => 'Acc&eacute;s d&acute;escriptura',
+    /**
+    * River
+    **/
 
-	/**
-	 * Status and error messages
-	 */
-	'pages:noaccess' => 'No hi ha acc&eacute;s a la p&agrave;gina',
-	'pages:cantedit' => 'No pot editar aquesta p&agrave;gina',
-	'pages:saved' => 'P&agrave;gina desada',
-	'pages:notsaved' => 'La p&agrave;gina no s&acute;ha pogut desar',
-	'pages:error:no_title' => 'Ha d&acute;especificar un t&iacute;tol per aquesta p&agrave;gina.',
-	'pages:delete:success' => 'La p&agrave;gina ha estat eliminada correctament.',
-	'pages:delete:failure' => 'La p&agrave;gina no ha pogut ser eliminada.',
+    'river:create:object:page' => "%s ha creat la pàgina %s",
+    'river:create:object:page_top' => "%s ha creat la pàgina %s",
+    'river:update:object:page' => "%s ha actualitzat la pàgina %s",
+    'river:update:object:page_top' => "%s ha actualitzat la pàgina %s",
+    'river:comment:object:page' => "%s ha afegit un comentari a la pàgina %s",
+    'river:comment:object:page_top' => "%s ha afegit un comentari a la pàgina %s",
 
-	/**
-	 * Page
-	 */
-	'pages:strapline' => 'Actualizaci&oacute;n m&eacute;s recent %s per %s',
+    /**
+     * Form fields
+     */
 
-	/**
-	 * History
-	 */
-	'pages:revision:subtitle' => 'Revisi&oacute; creada %s per %s',
+    'pages:title' => "Títol de la pàgina",
+    'pages:description' => "Text de la pàgina",
+    'pages:tags' => "Etiquetes",
+    'pages:access_id' => "Permís de lectura",
+    'pages:write_access_id' => "Permís d'escriptura",
 
-	/**
-	 * Widget
-	 **/
+    /**
+     * Status and error messages
+     */
+    'pages:noaccess' => "No teniu accés a la pàgina",
+    'pages:cantedit' => "No podeu editar la pàgina",
+    'pages:saved' => "S'ha desat la pàgina",
+    'pages:notsaved' => "No s'ha pogut desar la pàgina",
+    'pages:error:no_title' => "Heu d'especificar el títol de la pàgina.",
+    'pages:delete:success' => "S'ha suprimit la pàgina.",
+    'pages:delete:failure' => "No s'ha suprimit la pàgina.",
 
-	'pages:num' => 'Quantitat de p&agrave;gines a mostrar',
-	'pages:widget:description' => "Aquest &eacute;s el llistat de les seves p&agrave;gines.",
+    /**
+     * Page
+     */
+    'pages:strapline' => "Ultima actualització de %s per %s",
 
-	/**
-	 * Submenu items
-	 */
-	'pages:label:view' => "Veure p&agrave;gina",
-	'pages:label:edit' => "Editar p&agrave;gina",
-	'pages:label:history' => "Historial de la p&agrave;gina",
+    /**
+     * History
+     */
+    'pages:revision:subtitle' => "Revisió creada de %s per %s",
 
-	/**
-	 * Sidebar items
-	 */
-	'pages:sidebar:this' => "Aquesta p&agrave;gina",
-	'pages:sidebar:children' => "Sub-p&agrave;gines",
-	'pages:sidebar:parent' => "Mare",
+    /**
+     * Widget
+     **/
 
-	'pages:newchild' => "Crear una sub-p&agrave;gina",
-	'pages:backtoparent' => "Tornar a '%s'",
+    'pages:num' => "Nombre de pàgines a visualitzar",
+    'pages:widget:description' => "És una llista de les vostres pàgines.",
+
+    /**
+     * Submenu items
+     */
+    'pages:label:view' => "Visualitzar la pàgina",
+    'pages:label:edit' => "Editar la pàgina",
+    'pages:label:history' => "Historial de la pàgina",
+
+    /**
+     * Sidebar items
+     */
+    'pages:sidebar:this' => "Aquesta pàgina",
+    'pages:sidebar:children' => "Pàgina filla",
+    'pages:sidebar:parent' => "Pàgina pare",
+
+    'pages:newchild' => "Crear una pàgina filla",
+    'pages:backtoparent' => "Tornar a '%s'",
 );
 
-add_translation("ca", $catalan);
+add_translation('ca', $catalan); 

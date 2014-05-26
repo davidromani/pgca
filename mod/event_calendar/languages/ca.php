@@ -2,7 +2,7 @@
 
 $catalan = array( 
 		
-    'item:object:event_calendar' => "Esdeveniments",
+    'item:object:event_calendar' => "Calendari",
     'tag_names:event_tags' => "Etiquetes",
     'event_calendar:optional' => "Opcional.",
     'event_calendar:required' => "Obligatori.",

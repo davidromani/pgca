@@ -10,93 +10,93 @@ $spanish = array(
 	/**
 	 * Menu items and titles
 	 */
-	'file' => "Arxius",
-	'file:user' => "Arxius de %s",
-	'file:friends' => "Arxius de contactes",
-	'file:all' => "Tots els arxius",
-	'file:edit' => "Editar arxiu",
-	'file:more' => "M&eacute;s arxius",
-	'file:list' => "Vista de llista",
-	'file:group' => "Arxius del grup",
-	'file:gallery' => "Vista de galeria",
-	'file:gallery_list' => "Vista de galeria o llista",
-	'file:num_files' => "Quantitat d&acute;arxius a mostrar",
-	'file:user:gallery'=>'Vista %s galeria',
-	'file:via' => 'arxius via',
-	'file:upload' => "Carregar un arxiu",
-	'file:replace' => 'Substituir contingut de l&acute;arxiu (deixar en blanc si no es vol modificar)',
+	'file' => "Archivos",
+	'file:user' => "Archivos de %s",
+	'file:friends' => "Archivos de amigos",
+	'file:all' => "Todos los archivos",
+	'file:edit' => "Editar archivo",
+	'file:more' => "M&aacute;s archivos",
+	'file:list' => "vista de lista",
+	'file:group' => "Archivos del grupo",
+	'file:gallery' => "vista de galer&iacute;a",
+	'file:gallery_list' => "Vista de galer&iacute;a o lista",
+	'file:num_files' => "Cantidad de archivos a mostrar",
+	'file:user:gallery'=>'Vista %s galer&iacute;a',
+	'file:via' => 'archivos v&iacute;a',
+	'file:upload' => "Subir un archivo",
+	'file:replace' => 'Reemplazar contenido de archivo (dejar en blanco para no modificar)',
 	'file:list:title' => "%s - %s %s",
-	'file:title:friends' => "De contactes",
+	'file:title:friends' => "De amigos",
 
-	'file:add' => 'Carregar un arxiu',
+	'file:add' => 'Subir un archivo',
 
 	'file:file' => "Archivo",
-	'file:title' => "T&iacute;tol",
-	'file:desc' => "Descripci&oacute;",
+	'file:title' => "T&iacute;tulo",
+	'file:desc' => "Descripci&oacute;n",
 	'file:tags' => "Tags",
 
-	'file:types' => "Tipus d&acute;arxiu carregats",
+	'file:types' => "Tipos de archivo subidos",
 
-	'file:type:' => 'Arxius',
-	'file:type:all' => "Tots els arxius",
-	'file:type:video' => "V&iacute;deos",
-	'file:type:document' => "Documents",
-	'file:type:audio' => "&Agrave;udio",
-	'file:type:image' => "Imatges",
+	'file:type:' => 'Archivos',
+	'file:type:all' => "Todos los archivos",
+	'file:type:video' => "Videos",
+	'file:type:document' => "Documentos",
+	'file:type:audio' => "Audio",
+	'file:type:image' => "Imagenes",
 	'file:type:general' => "General",
 
-	'file:user:type:video' => "V&iacute;deos de %s",
-	'file:user:type:document' => "Documents de %s",
-	'file:user:type:audio' => "&Agrave;udio de %s",
-	'file:user:type:image' => "Imatges de %s",
-	'file:user:type:general' => "Arxius generals de %s",
+	'file:user:type:video' => "Videos de %s",
+	'file:user:type:document' => "Documentos de %s",
+	'file:user:type:audio' => "Audio de %s",
+	'file:user:type:image' => "Imagenes de %s",
+	'file:user:type:general' => "Archivos generales de %s",
 
-	'file:friends:type:video' => "V&iacute;deos de contactes",
-	'file:friends:type:document' => "Documents de contactes",
-	'file:friends:type:audio' => "&Agrave;udio de contactes",
-	'file:friends:type:image' => "Imatges de contactes",
-	'file:friends:type:general' => "Arxius generals de contactes",
+	'file:friends:type:video' => "Videos de amigos",
+	'file:friends:type:document' => "Documentos de amigos",
+	'file:friends:type:audio' => "Audio de amigos",
+	'file:friends:type:image' => "Imagenes de amigos",
+	'file:friends:type:general' => "Archivos generales de amigos",
 
-	'file:widget' => "Widget d&acute;arxius",
-	'file:widget:description' => "Veure els arxius m&eacute;s recents",
+	'file:widget' => "Widget de archivos",
+	'file:widget:description' => "Ver los &uacute;ltimos archivos",
 
-	'groups:enablefiles' => 'Habilitar arxius de grups',
+	'groups:enablefiles' => 'Habilitar archivos de grupos',
 
-	'file:download' => "Descarregar",
+	'file:download' => "Descargar",
 
-	'file:delete:confirm' => "Vol esborrar aquest arxiu?",
+	'file:delete:confirm' => "Desea eliminar este archivo?",
 
-	'file:tagcloud' => "N&uacute;vol d&acute;etiquetes",
+	'file:tagcloud' => "Tag cloud",
 
-	'file:display:number' => "Quantitat d&acute;arxius a mostrar",
+	'file:display:number' => "Cantidad de archivos a mostrar",
 
-	'river:create:object:file' => '%s ha carregat l&acute;arxiu %s',
-	'river:comment:object:file' => '%s ha comentat l&acute;arxiu %s',
+	'river:create:object:file' => '%s subi&oacute; el archivo %s',
+	'river:comment:object:file' => '%s coment&oacute; en el archivo %s',
 
-	'item:object:file' => 'Arxius',
+	'item:object:file' => 'Archivos',
 
 	/**
 	 * Embed media
 	 **/
-		'file:embed' => "Incrustar multim&egrave;dia",
-		'file:embedall' => "Tot",
+		'file:embed' => "Incrustar multimedia",
+		'file:embedall' => "Todo",
 
 	/**
 	 * Status messages
 	 */
-		'file:saved' => "Arxiu desat correctament.",
-		'file:deleted' => "Arxiu eliminat correctament.",
+		'file:saved' => "Archivo guardado correctamente.",
+		'file:deleted' => "Archivo eliminado correctamente.",
 
 	/**
 	 * Error messages
 	 */
-		'file:none' => "No s&acute;ha carregat cap arxiu.",
-		'file:uploadfailed' => "Ens sap greu, no s&acute;ha pogut desar l&acute;arxiu.",
-		'file:downloadfailed' => "Ens sap greu, l&acute;arxiu no est&agrave; disponible en aquest moment.",
-		'file:deletefailed' => "El seu arxiu no es pot eliminar en aquests moments.",
-		'file:noaccess' => "No disposa dels permisos necessaris per modificar l&acute;arxiu",
-		'file:cannotload' => "Hi ha hagut una errada a l&acute;hora d&acute;intentar carregar l&acute;arxiu",
-		'file:nofile' => "Ha de seleccionar un arxiu",
+		'file:none' => "No se subieron archivos.",
+		'file:uploadfailed' => "Lo sentimos, no se pudo guardar el archivo.",
+		'file:downloadfailed' => "Lo sentimos, el archivo no est&aacute; disponible en este momento.",
+		'file:deletefailed' => "Su archivo no puede ser eliminado en este momento.",
+		'file:noaccess' => "No posee los permisos necesarios para modificar el archivo",
+		'file:cannotload' => "Ha ocurrido un error al intentar cargar el archivo",
+		'file:nofile' => "Debe seleccionar un archivo",
 );
 
-add_translation("ca", $catalan);
+add_translation("es", $spanish);

@@ -1,92 +1,94 @@
 <?php
 /**
- * Core English Language
+ * Core Spanish Language
  *
  * @package Elgg.Core
- * @subpackage Languages.English
+ * @subpackage Languages.Spanish
  */
 
-$catalan = array(
+$catalan = array( 
 /**
  * Sites
  */
- 
-	'item:site' =>
- 'Llocs',
+	 'item:site'  =>  "Llocs" ,
 
+		
+		
+		
 /**
  * Sessions
  */
- 
-	'login' => "Iniciar sessi&oacute;",
-	'loginok' => "Ha iniciat sessi&oacute;",
-	'loginerror' => "Ha fallat alguna cosa en iniciar la sessi&oacute;. Verifiqui les seves credencials i torni-ho a intentar",
-	'login:empty' => "Es requereix un nom d&acute;usuari i una contrasenya",
-	'login:baduser' => "No s&acute;ha pogut carregar el compte d&acute;aquest nom d&acute;usuari",
-	'auth:nopams' => "Error intern. No s&acute;ha trobat un m&egrave;tode d&acute;identificaci&oacute;",
+		'login' => "Iniciar sessi&oacute;",
+		'loginok' => "Has iniciat sessi&oacute;",
+		'loginerror' => "Inici de sessi&oacute; incorrecte. Verifica les teves credencials i intenta-ho de nou",
+		'login:empty' => "El nom d'usuari i contrasenya s&oacute;n requerits",
+		'login:baduser' => "No s'ha pogut carregar el teu compte d'usuari",
+		'auth:nopams' => "Error intern. No es troba un m&egrave;tode d'autenticaci&oacute; instal·lat",
+		
+		'logout' => "Tancar sessi&oacute;",
+		'logoutok' => "S'ha tancat la sessi&oacute;",
+		'logouterror' => "No s'ha pogut tancar la sessi&oacute;, si us plau intenta-ho de nou",
+		
+		'loggedinrequired' => "Has d'estar autenticat per poder veure aquesta p&agrave;gina",
+		'adminrequired' => "Has de ser un administrador per poder veure aquesta p&agrave;gina",
+		'membershiprequired' => "Has de ser membre del grup per poder veure aquesta p&agrave;gina",
 
-	'logout' => "Tancar sessi&oacute;",
-	'logoutok' => "S&acute;ha tancat la sessi&oacute;",
-	'logouterror' => "No s&acute;ha pogut tancar la sessi&oacute;. Si us plau, torni-ho a intentar",
-
-	'loggedinrequired' => "Ha d&acute;estar identificat per poder veure aquesta p&agrave;gina",
-	'adminrequired' => "Ha de ser un administrador per poder veure aquesta p&agrave;gina",
-	'membershiprequired' => "Ha de ser un membre del grup per poder veure aquesta p&agrave;gina",
-
-
+	
+	
+	
 /**
  * Errors
  */
- 	'exception:title' => "Error Fatal",
-
-	'actionundefined' => "L&acute;acci&oacute; (%s) sol&middot;licitada no es troba definida en el sistema",
-	'actionnotfound' => "No s&acute;ha pogut trobar el log d&acute;accions per a %s",
-	'actionloggedout' => "Ens sap greu, no es pot fer aquesta acci&oacute; sense identificar-se abans",
-	'actionunauthorized' => 'Vost&eacute; no t&eacute; els permisos necessaris per realitzar aquesta acci&oacute;',
-
-	'InstallationException:SiteNotInstalled' => 'No s&acute;ha pogut processar la sol&middot;licitud. El lloc '
-		. ' no est&agrave; configurat o la base de dades ha caigut',
-	'InstallationException:MissingLibrary' => 'No s&acute;ha pogut carregar %s',
-	'InstallationException:CannotLoadSettings' => 'No s&acute;ha pogut carregar l&acute;arxiu de configuraci&oacute;. Pot ser que no existeixi o que sigui un error de configuraci&oacute; de permisos',
-
-	'SecurityException:Codeblock' => "Acc&eacute;s denegat per l&acute;execuci&oacute; de bloc de codi privilegiat",
-	'DatabaseException:WrongCredentials' => "No s&acute;ha pogut connectar a la base de dades amb aquestes credencials. Verifiqui l&acute;arxiu de configuraci&oacute;",
-	'DatabaseException:NoConnect' => "No es pot consultar la base de dades '%s'. Si un plau, verifiqui que aquesta base de dades existeixi i que  vost&egrave; tingui els permisos corresponents",
+	'exception:title' => "Error Fatal",
+	
+	'actionundefined' => "La acci&oacute; (%s) sol&middot;licitada no est&agrave; definida al sistema",
+	'actionnotfound' => "El log d'accions per %s no s'ha trobat",
+	'actionloggedout' => "Ho sentim, no es pot realitzar aquesta acci&oacute; sense identificar-se",
+	'actionunauthorized' => "No tens els permisos necesaris per realitzar aquesta acci&oacute;",
+	
+	'InstallationException:SiteNotInstalled' => "No s'ha pogut procesar la sol&middot;licitud. El lloc "
+	. " no es troba configurat o la base de dades es troba caiguda",
+	'InstallationException:MissingLibrary' => "No s'ha pogut carregar %s",
+	'InstallationException:CannotLoadSettings' => "No s'ha pogut carregar l'arxiu de configuraci&oacute;, potser no existeix o hi ha un error de configuraci&oacute; de permisos",
+	
+	'SecurityException:Codeblock' => "Acc&eacute;s denegat per l'execuci&oacute; de bloc de codi privilegiat",
+	'DatabaseException:WrongCredentials' => "No s'ha pugut connectar a la base de dades amb les credencials prove&iuml;des. Verifica l'arxiu de configuraci&oacute;",
+	'DatabaseException:NoConnect' => "No es pot consultar la base de dades '%s', si us plau verifica que la base de dades existeix i que hi tens permisos",
 	'SecurityException:FunctionDenied' => "Acc&eacute;s denegat a la funci&oacute; privilegiada '%s'",
-	'DatabaseException:DBSetupIssues' => "S&acute;han trobat algunes errades: ",
-	'DatabaseException:ScriptNotFound' => "No ha estat possible trobar l&acute;script de base de dades %s",
-	'DatabaseException:InvalidQuery' => "Consulta no v&agrave;lida",
-
-	'IOException:FailedToLoadGUID' => "Error en carregar una nova %s de GUID: %d",
+	'DatabaseException:DBSetupIssues' => "S'han trobat una quantitat d'errors: ",
+	'DatabaseException:ScriptNotFound' => "No s'ha pogut trobar l'script de base de dades %s",
+	'DatabaseException:InvalidQuery' => "Consulta inv&agrave;lida",
+	
+	'IOException:FailedToLoadGUID' => "Error al carregar una nova %s de GUID: %d",
 	'InvalidParameterException:NonElggObject' => "Passant un no-ElggObject a un constructor ElggObject!",
-	'InvalidParameterException:UnrecognisedValue' => "No es reconeix el valor que s&acute;ha passat al constructor",
+	'InvalidParameterException:UnrecognisedValue' => "No es reconeix el valor passat al constructor",
+	
+	'InvalidClassException:NotValidElggStar' => "GUID: %d no és un %s v&agrave;lid",
+	
+	'PluginException:MisconfiguredPlugin' => "%s (guid: %s) és un plugin desconfigurat que ha estat deshabilitat. Si us plau, revisa la Wiki d'Elgg per m&eacute;s informaci&oacute; (http://docs.elgg.org/wiki/)",
+	'PluginException:CannotStart' => "%s (guid: %s) no pot iniciar-se. Motiu: %s",
+	'PluginException:InvalidID' => "%s no és un ID de plugin v&agrave;lid",
+	'PluginException:InvalidPath' => "%s és un path de plugin inv&agrave;lid",
+	'PluginException:InvalidManifest' => "Arxiu de manifest inv&agrave;lid pel plugin %s",
+	'PluginException:InvalidPlugin' => "%s no és un plugin v&agrave;lid",
+	'PluginException:InvalidPlugin:Details' => "%s no és un plugin v&agrave;lid: %s",
+	
+	'ElggPlugin:MissingID' => "No es troba l'ID del plugin (guid %s)",
+	'ElggPlugin:NoPluginPackagePackage' => "Manca ElggPluginPackage pel plugin amb ID %s (guid %s)",
 
-	'InvalidClassException:NotValidElggStar' => "GUID: %d no &eacute;s un %s v&agrave;lid",
+	'ElggPluginPackage:InvalidPlugin:MissingFile' => "Manca l'arxiu %s al package",
+	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => "Tipus de depend&egrave;ncia '%s' inv&agrave;lida",
+	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => "Tipus '%s' provist inv&agrave;lid",
+	'ElggPluginPackage:InvalidPlugin:CircularDep' => "Depend&egrave;ncia %s inv&agrave;lida '%s' al plugin %s. Els plugins no poden entrar en conlicte amb altres requerits!",
 
-	'PluginException:MisconfiguredPlugin' => "%s (guid: %s) &eacute;s un plugin desconfigurat que ha estat deshabilitat. Si us plau, revisi la Wiki d&acute;Elgg per ampliar la informaci&oacute; (http://docs.elgg.org/wiki/)",
-	'PluginException:CannotStart' => '%s (guid: %s) no pot iniciar. Motiu: %s',
-	'PluginException:InvalidID' => "%s no &eacute;s una ID de plugin v&agrave;lida",
-	'PluginException:InvalidPath' => "%s &eacute;s un path de plugin no v&agrave;lid",
-	'PluginException:InvalidManifest' => 'Arxiu de manifest no v&agrave;lid per al plugin %s',
-	'PluginException:InvalidPlugin' => '%s no &eacute;s un plugin v&agrave;lid',
-	'PluginException:InvalidPlugin:Details' => '%s no &eacute;s un plugin v&agrave;lid: %s',
+	'ElggPlugin:Exception:CannotIncludeFile' => "No pot incloure's %s pel plugin %s (guid: %s) a %s. Verifica els permisos!",
+	'ElggPlugin:Exception:CannotRegisterViews' => "No pot cargar-se el directori 'views' pel plugin %s (guid: %s) a %s. Verifica els permisos!",
+	'ElggPlugin:Exception:CannotRegisterLanguages' => "No poden registrar-se llenguatges pel plugin %s (guid: %s) a %s.  Verifica els permisos!",
+	'ElggPlugin:Exception:NoID' => "No s'ha trobat l'ID pel plugin amb guid %s!",
 
-	'ElggPlugin:MissingID' => 'No s&acute;ha pogut trobar la ID del plugin (guid %s)',
-	'ElggPlugin:NoPluginPackagePackage' => 'ElggPluginPackage falta per al plugin amb ID %s (guid %s)',
-
-	'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Falta l&acute;arxiu %s al paquet',
-	'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Tipus de depend&egrave;ncia "%s" no v&agrave;lida',
-	'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Tipus "%s" prove&iuml;t no v&agrave;lid',
-	'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Depend&egrave;ncia %s inv&agrave;lida "%s" al plugin %s. Els plugins no poden entrar en conflicte amb altres de requerits!',
-
-	'ElggPlugin:Exception:CannotIncludeFile' => 'No es pot incloure %s per al plugin %s (guid: %s) a %s. Verifiqui els permisos!',
-	'ElggPlugin:Exception:CannotRegisterViews' => 'No es pot carregar el directori "views" per al plugin %s (guid: %s) en %s. Verifiqui els permisos!',
-	'ElggPlugin:Exception:CannotRegisterLanguages' => 'No poden registrar-se idiomes per al plugin %s (guid: %s) a %s.  Verifiqui els permisos!',
-	'ElggPlugin:Exception:NoID' => 'No s&acute;ha trobat la ID per al  plugin amb guid %s!',
-
-	'PluginException:ParserError' => 'Error en processar el manifest amb versi&oacute; d&acute; API %s al plugin %s',
-	'PluginException:NoAvailableParser' => 'No s&acute;ha pogut trobar un processador per al manifest de la versi&oacute; de l&acute; API %s al plugin %s',
-	'PluginException:ParserErrorMissingRequiredAttribute' => "Falta l&acute;atribut '%s' al manifest del plugin %s",
+	'PluginException:ParserError' => "Error processant el manifiest amb versi&oacute; d'API %s al plugin %s",
+	'PluginException:NoAvailableParser' => "No es troba un processador pel manifest de la versi&oacute; de l'API %s al plugin %s",
+	'PluginException:ParserErrorMissingRequiredAttribute' => "Manca l'atribut '%s' al manifest del plugin %s",
 
 	'ElggPlugin:Dependencies:Requires' => 'Requereix',
 	'ElggPlugin:Dependencies:Suggests' => 'Suggereix',
@@ -99,267 +101,288 @@ $catalan = array(
 	'ElggPlugin:Dependencies:PhpExtension' => 'Extensi&oacute; PHP: %s',
 	'ElggPlugin:Dependencies:PhpIni' => 'Configuraci&oacute; PHP ini: %s',
 	'ElggPlugin:Dependencies:Plugin' => 'Plugin: %s',
-	'ElggPlugin:Dependencies:Priority:After' => 'Despr�s %s',
+	'ElggPlugin:Dependencies:Priority:After' => 'Despr&eacute;s %s',
 	'ElggPlugin:Dependencies:Priority:Before' => 'Abans %s',
 	'ElggPlugin:Dependencies:Priority:Uninstalled' => '%s no instal&middot;lat',
-	'ElggPlugin:Dependencies:Suggests:Unsatisfied' => 'Falta',
+	'ElggPlugin:Dependencies:Suggests:Unsatisfied' => 'Manca',
 
-	'ElggPlugin:InvalidAndDeactivated' => '%s no &eacute;s un plugin v&agrave;lid i ha estat deshabilitat',
+	'ElggPlugin:InvalidAndDeactivated' => "%s no és un plugin v&agrave;lid i s'ha deshabilitat",
 
 	'InvalidParameterException:NonElggUser' => "Passant un no-ElggUser a un constructor ElggUser!",
-
+	
 	'InvalidParameterException:NonElggSite' => "Passant un no-ElggSite a un constructor ElggSite!",
 
 	'InvalidParameterException:NonElggGroup' => "Passant un no-ElggGroup a un constructor ElggGroup!",
 
-	'IOException:UnableToSaveNew' => "No s&acute;ha pogut desar un nou %s",
+	'IOException:UnableToSaveNew' => "No s'ha pogut guardar un nou %s",
 
-	'InvalidParameterException:GUIDNotForExport' => "No s&acute;ha especificat un GUID durant l&acute;exportaci&oacute;. Aix&ograve; no hauria de succeir",
-	'InvalidParameterException:NonArrayReturnValue' => "Funci&oacute; de serialitzaci&oacute; d&acute;entitat passada a un par&agrave;metre de retorn no-array",
+	'InvalidParameterException:GUIDNotForExport' => "No s'ha especificat un GUID durant l'exportaci&oacute;, aix&ograve; no hauria de passar",
+	'InvalidParameterException:NonArrayReturnValue' => "Funci&oacute; de serialitzaci&oacute; d'entitat passada a un par&agrave;metre de retorn no-array",
 
-	'ConfigurationException:NocachePath' => "Path de mem&ograve;ria cau setejat en Null!",
-	'IOException:NotDirectory' => "%s no &eacute;s un directori",
+	'ConfigurationException:NoCachePath' => "Path de mem&ograve;ria cau seteat en Null!",
+	'IOException:NotDirectory' => "%s no és un directori",
 
-	'IOException:BaseEntitySaveFailed' => "No s&acute;ha pogut desar una nova entitat!",
-	'InvalidParameterException:UnexpectedODDClass' => "import() passat a una classe ODD inesperada",
-	'InvalidParameterException:EntityTypeNotSet' => "S&acute;ha de setejar el tipus d&acute;entitat",
+	'IOException:BaseEntitySaveFailed' => "No s'ha pogut guardar una nova entitat!",
+	'InvalidParameterException:UnexpectedODDClass' => "import() passat a una classe ODD inesperat",
+	'InvalidParameterException:EntityTypeNotSet' => "Ha de setear-se el tipus d'entitat",
 
-	'ClassException:ClassnameNotClass' => "%s no &eacute;s un %s",
-	'ClassNotFoundException:MissingClass' => "Classe '%s' no trobada, Falta algun plugin?",
-	'InstallationException:TypeNotSupported' => "No es reconeix el tipus %s. Aix&ograve; indica un error en la instal&middot;laci&oacute;  causat, probablement, per una actualizaci&oacute; incompleta",
+	'ClassException:ClassnameNotClass' => "%s no és un %s",
+	'ClassNotFoundException:MissingClass' => "Classe '%s' no trobada, manca alg&uacute; plugin?",
+	'InstallationException:TypeNotSupported' => "No es reconeix el tipus %s. Aix&ograve; indica un error en la instal&middot;laci&oacute;, segurament causat per una actualizaci&oacute; incompleta",
 
-	'ImportException:ImportFailed' => "No s&acute;ha pogut importar l&acute;element %d",
-	'ImportException:ProblemSaving' => "S&acute;ha trobat un problema en desar %s",
-	'ImportException:NoGUID' => "S&acute;ha creat una nova entitat sense GUID. Aix&ograve; no pot passar",
+	'ImportException:ImportFailed' => "No s'ha pogut importar l'element %d",
+	'ImportException:ProblemSaving' => "S'ha trobat un problema al guardar %s",
+	'ImportException:NoGUID' => "S'ha creat una nova entitat sense GUID, aix&ograve; no ha de passar",
 
-	'ImportException:GUIDNotFound' => "No s&acute;ha pogut trobar l&acute;entitat '%d'",
-	'ImportException:ProblemUpdatingMeta' => "Hi ha hagut un error en actualizar '%s' a l&acute;entitat '%d'",
+	'ImportException:GUIDNotFound' => "No s'ha pogut trobar l'entitat '%d'",
+	'ImportException:ProblemUpdatingMeta' => "S'ha produ&iuml;t un error actualitzant '%s' en l'entitat '%d'",
 
-	'ExportException:NoSuchEntity' => "GUID d&acute;entitat no v&agrave;lid: %d",
+	'ExportException:NoSuchEntity' => "GUID d'entitat inv&agrave;lid: %d",
 
-	'ImportException:NoODDElements' => "No s&acute;han trobat elements OpenDD per a la importaci&oacute;. La importaci&oacute; ha fallat",
-	'ImportException:NotAllImported' => "No s&acute;han importat tots els elements",
+	'ImportException:NoODDElements' => "No s'han trobat elements OpenDD per la importaci&oacute;, la importaci&oacute; ha fallat",
+	'ImportException:NotAllImported' => "No s'han importat tots els elements",
 
-	'InvalidParameterException:UnrecognisedFileMode' => "Mode d&acute;arxiu '%s' no reconegut",
-	'InvalidParameterException:MissingOwner' => "L&acute;arxiu %s (guid: %d) (guid del propietari: %d) no t&eacute; un propietari!",
-	'IOException:CouldNotMake' => "No es pot fer %s",
-	'IOException:MissingFileName' => "Ha d&acute;especificar un nom abans d&acute;obrir un arxiu",
-	'ClassNotFoundException:NotFoundNotSavedWithFile' => "No s&acute;ha pogut carregar la classe de repositori per a l&acute;arxiu %u",
-	'NotificationException:NoNotificationMethod' => "No s&acute;ha especificat un m&egrave;tode de notificaci&oacute;",
-	'NotificationException:NoHandlerFound' => "No s&acute;ha trobat un controlador '%s' o no &eacute;s executable",
-	'NotificationException:ErrorNotifyingGuid' => "Hi ha hagut un error en notificar %d",
-	'NotificationException:NoEmailAddress' => "No s&acute;ha pogut carregar l&acute;adre&ccedil;a de correu per al GUID:%d",
-	'NotificationException:MissingParameter' => "Falta el par&agrave;metre requerit: '%s'",
+	'InvalidParameterException:UnrecognisedFileMode' => "Mode d'arxiu '%s' no reconegut",
+	'InvalidParameterException:MissingOwner' => "L'arxiu %s (guid: %d) (guid del propietari: %d) no t&eacute; propietari!",
+	'IOException:CouldNotMake' => "No s'ha pogut realitzar %s",
+	'IOException:MissingFileName' => "Has d'especificar un nom abans d'obrir un arxiu",
+	'ClassNotFoundException:NotFoundNotSavedWithFile' => "No ha pogut carregar-se la classe de repositori %s per l'arxiu %u",
+	'NotificationException:NoNotificationMethod' => "No s'ha especificat un m&egrave;tode de notificaci&oacute;",
+	'NotificationException:NoHandlerFound' => "No s'ha trobat un controlador '%s' o no és executable",
+	'NotificationException:ErrorNotifyingGuid' => "S'ha donat un error al notificar %d",
+	'NotificationException:NoEmailAddress' => "No ha pogut carregar-se la adreça de Email pel GUID:%d",
+	'NotificationException:MissingParameter' => "Manca par&agrave;metre requerit: '%s'",
 
 	'DatabaseException:WhereSetNonQuery' => "On no contingui WhereQueryComponent",
-	'DatabaseException:SelectFieldsMissing' => "Falten camps a l&acute;estil de la consulta",
+	'DatabaseException:SelectFieldsMissing' => "Manquen camps en l'estil de consulta",
 	'DatabaseException:UnspecifiedQueryType' => "Tipus de consulta no reconegut o no especificat",
-	'DatabaseException:NoTablesSpecified' => "No s&acute;han especificat les taules per a la consulta",
-	'DatabaseException:NoACL' => "No s&acute;ha especificat el control d'acc&eacute;s en la consulta",
+	'DatabaseException:NoTablesSpecified' => "No s'han trobat les taules per la consulta",
+	'DatabaseException:NoACL' => "No s'ha especificat el control d'acc&eacute;s en la consulta",
 
-	'InvalidParameterException:NoEntityFound' => "No es troba l&acute;entitat. Pot ser que no existeixi o que no tingui els premisos necessaris sobre ella",
+	'InvalidParameterException:NoEntityFound' => "No s'ha trobat l'entitat, potser que no existeixi o que no tinguis els permisos necessaris sobre ella",
 
-	'InvalidParameterException:GUIDNotFound' => "No s&acute;ha pogut trobar el GUID: %s, o no hi t&eacute; acc&eacute;s",
-	'InvalidParameterException:IdNotExistForGUID' => "Ens sap greu, '%s' no existeix per al guid: %d",
-	'InvalidParameterException:CanNotExportType' => "Ens sap greu, l&acute;exportaci&oacute;n de '%s' no es troba implementada ",
-	'InvalidParameterException:NoDataFound' => "No s&acute;han trobat resultats",
-	'InvalidParameterException:DoesNotBelong' => "No pertany a l&acute;entitat",
-	'InvalidParameterException:DoesNotBelongOrRefer' => "No pertany o no es refereix a l&acute;entitat",
-	'InvalidParameterException:MissingParameter' => "Falta un par&agrave;metre. Ha de proveir un GUID",
-	'InvalidParameterException:LibraryNotRegistered' => '%s no &eacute;s una llibreria  registrada',
+	'InvalidParameterException:GUIDNotFound' => "No s'ha pugut trobar el GUID: %s, o no tens acc&eacute;s a ella",
+	'InvalidParameterException:IdNotExistForGUID' => "Ho sentim, '%s' no existeix pel guid: %d",
+	'InvalidParameterException:CanNotExportType' => "Ho sentim, no es troba implementada l'exportaci&oacute; de '%s'",
+	'InvalidParameterException:NoDataFound' => "No s'han trobat resultats",
+	'InvalidParameterException:DoesNotBelong' => "No pertany a la entitat",
+	'InvalidParameterException:DoesNotBelongOrRefer' => "No pertany o es refereix a l'entitat",
+	'InvalidParameterException:MissingParameter' => "Manca par&agrave;metre, ha de proveir un GUID",
+	'InvalidParameterException:LibraryNotRegistered' => '%s no és una llibreria registrada',
 
-	'APIException:ApiResultUnknown' => "Els resultats de l&acute;API no s&oacute;n coneguts. Aix&ograve; no pot passar",
-	'ConfigurationException:NoSiteID' => "No s&acute;ha especificat una ID del lloc",
-	'SecurityException:APIAccessDenied' => "Ens sap greu, l&acute;acc&eacute;s a l&acute;API ha estat deshabilitat per part de l&acute;administrador",
-	'SecurityException:NoAuthMethods' => "No s&acute;han trobat m&egrave;todes d&acute;identificaci&oacute; per processar la sol&middot;licitud",
-	'SecurityException:UnexpectedOutputInGatekeeper' => 'Sortida inesperada en el resultat gatekeeper. S&acute;aturar&agrave; l&acute;execuci&oacute; per seguretat. Revisi http://docs.elgg.org/ per ampliar la informaci&oacute;',
-	'InvalidParameterException:APIMethodOrFunctionNotSet' => "M&egrave;tode o funci&oacute; no especificada a l&acute;hora de cridar  expose_method()",
-	'InvalidParameterException:APIParametersArrayStructure' => "Les estructures d&acute;Array no s&oacute;n v&agrave;lides en les crides a la funci&oacute; '%s'",
-	'InvalidParameterException:UnrecognisedHttpMethod' => "M&egrave;tode http %s no reconegut per al m&egrave;tode '%s' de l&acute;API",
-	'APIException:MissingParameterInMethod' => "Falta un par&agrave;metre %s al m&egrave;tode %s",
-	'APIException:ParameterNotArray' => "%s no &eacute;s un Array",
-	'APIException:UnrecognisedTypeCast' => "Tipus no reconegut al casteig %s per a la variable '%s' en el m&egrave;tode '%s'",
-	'APIException:InvalidParameter' => "S&acute;ha trobat un par&agrave;metre no v&agrave;lid per a '%s' en el m&egrave;tode '%s'",
-	'APIException:FunctionParseError' => "%s(%s) t&eacute; un error de processament",
-	'APIException:FunctionNoReturn' => "%s(%s) no ha tornat cap valor",
-	'APIException:APIAuthenticationFailed' => "La crida al m&egrave;tode ha fallat en la identificaci&oacute; de l&acute;API",
-	'APIException:UserAuthenticationFailed' => "La crida al m&egrave;tode ha fallat en la indetificaci&oacute; de l&acute;usuari",
-	'SecurityException:AuthTokenExpired' => "El token d&acute;identificaci&oacute; no es troba o ha caducat",
-	'CallException:InvalidCallMethod' => "%s ha de ser cridat utilitzant '%s'",
+	'APIException:ApiResultUnknown' => "Els resultats de l'API no són coneguts, aix&ograve; no ha de passar",
+	'ConfigurationException:NoSiteID' => "No s'ha especificat un ID del lloc",
+	'SecurityException:APIAccessDenied' => "Ho sentim, l'acc&eacute;s a l'API ha estat deshabilitat per a l'administrador",
+	'SecurityException:NoAuthMethods' => "No s'han trobat m&egrave;todes d'autenticaci&oacute; per a processar la sol&iuml;licitut",
+	'SecurityException:UnexpectedOutputInGatekeeper' => "Sortida inesperada en resultat gatekeeper. Aturant l'execuci&oacute; per seguretat. Revisa http://docs.elgg.org/ per m&eacute;s informaci&oacute;",
+	'InvalidParameterException:APIMethodOrFunctionNotSet' => "M&egrave;tode o funci&oacute; no especificat en la crida a expose_method()",
+	'InvalidParameterException:APIParametersArrayStructure' => "Estructures d'Array són inv&agrave;lides en crides a la funci&oacute; '%s'",
+	'InvalidParameterException:UnrecognisedHttpMethod' => "M&egrave;tode http %s no reconegut pel m&egrave;tode '%s' de l'API",
+	'APIException:MissingParameterInMethod' => "Manca par&agrave;metre %s en m&egrave;tode %s",
+	'APIException:ParameterNotArray' => "%s no és un Array",
+	'APIException:UnrecognisedTypeCast' => "Tipus no reconegut en casting %s per a la variable '%s' en el m&egrave;tode '%s'",
+	'APIException:InvalidParameter' => "S'ha trobat un par&agrave;metre inv&agrave;lid per '%s' en el m&egravetode '%s'",
+	'APIException:FunctionParseError' => "%s(%s) t&eacute; un error de processat",
+	'APIException:FunctionNoReturn' => "%s(%s) no ha retornat cap valor",
+	'APIException:APIAuthenticationFailed' => "La crida al m&egrave;tode ha fallat en l'autenticaci&oacute; de l'API",
+	'APIException:UserAuthenticationFailed' => "La crida al m&egrave;tode ha fallat en l'autenticaci&oacute; de l'usuari",
+	'SecurityException:AuthTokenExpired' => "El token d'autenticaci&oacute; no se troba o b&eacute; ha expirat",
+	'CallException:InvalidCallMethod' => "%s ha de cridar-se utilizant '%s'",
 	'APIException:MethodCallNotImplemented' => "La crida al m&egrave;tode '%s' no es troba implementada",
-	'APIException:FunctionDoesNotExist' => "La funci&oacute; per al m&egrave;tode '%s' no &eacute;s executable",
-	'APIException:AlgorithmNotSupported' => "No se suporta o s&acute;ha deshabilitat l&acute;algoritme '%s'",
-	'ConfigurationException:cacheDirNotSet' => "Directori de mem&ograve;ria cau; 'cache_path' no establert",
+	'APIException:FunctionDoesNotExist' => "La funci&oacute; pel m&egrave;tode '%s' no es executable",
+	'APIException:AlgorithmNotSupported' => "No se soporta o s'ha deshabilitat l'algoritme '%s'",
+	'ConfigurationException:CacheDirNotSet' => "Directori de mem&ograve;ria cau 'cache_path' no establert",
 	'APIException:NotGetOrPost' => "El m&egrave;tode de Request ha de ser GET o POST",
-	'APIException:MissingAPIKey' => "Falta una clau API",
+	'APIException:MissingAPIKey' => "Manca clau API",
 	'APIException:BadAPIKey' => "Clau API incorrecta",
-	'APIException:MissingHmac' => "Falta l&acute;encap&ccedil;alat X-Elgg-hmac",
-	'APIException:MissingHmacAlgo' => "Falta l&acute;encap&ccedil;alat X-Elgg-hmac-algo",
-	'APIException:MissingTime' => "Falta l&acute;encap&ccedil;alat X-Elgg-time",
-	'APIException:MissingNonce' => "Falta l&acute;encap&ccedil;alat X-Elgg-nonce",
-	'APIException:TemporalDrift' => "X-Elgg-time &eacute;s molt lluny&agrave; en el passat o en el futur. Error Epoch",
-	'APIException:NoQueryString' => "No hi ha dades a la query string",
-	'APIException:MissingPOSTHash' => "Falta l&acute;encap&ccedil;alat X-Elgg-posthash",
-	'APIException:MissingPOSTAlgo' => "Falta l&acute;encap&ccedil;alat X-Elgg-posthash_algo",
-	'APIException:MissingContentType' => "Falta content type per a post data",
-	'SecurityException:InvalidPostHash' => "Hash de POST data no v&agrave;lid - S&acute;esperava %s, per&ograve; s&acute;ha rebut %s",
-	'SecurityException:DupePacket' => "Signatura de paquet vista abans",
-	'SecurityException:InvalidAPIKey' => "Clau API no v&agrave;lida o perduda",
-	'NotImplementedException:CallMethodNotImplemented' => "No se suporta la crida al m&egrave;tode '%s'",
-
+	'APIException:MissingHmac' => "Manca capçalera X-Elgg-hmac",
+	'APIException:MissingHmacAlgo' => "Manca capçalera X-Elgg-hmac-algo",
+	'APIException:MissingTime' => "Manca capçalera X-Elgg-time",
+	'APIException:MissingNonce' => "Manca capçalera X-Elgg-nonce",
+	'APIException:TemporalDrift' => "X-Elgg-time és molt lluny&agrave; en el passat o en el futur. Fallida Epoch",
+	'APIException:NoQueryString' => "No hi han dades en la query string",
+	'APIException:MissingPOSTHash' => "Manca capçalera X-Elgg-posthash",
+	'APIException:MissingPOSTAlgo' => "Manca capçalera X-Elgg-posthash_algo",
+	'APIException:MissingContentType' => "Manca Content type per a post data",
+	'SecurityException:InvalidPostHash' => "Hash de POST data inv&agrave;lid - S'esperava %s per&ograve; s'ha rebut %s",
+	'SecurityException:DupePacket' => "Signatura de paquet ja vista",
+	'SecurityException:InvalidAPIKey' => "Clau API inv&agrave;lida o manca",
+	'NotImplementedException:CallMethodNotImplemented' => "La crida al m&egrave;tode '%s' no est&agrave; soportat",
+	 
 	'NotImplementedException:XMLRPCMethodNotImplemented' => "Crida al m&egrave;tode XML-RPC '%s' no implementada",
-	'InvalidParameterException:UnexpectedReturnFormat' => "La crida al m&egrave;tode '%s' ha tingut un resultat inesperat",
+	'InvalidParameterException:UnexpectedReturnFormat' => "La crida al m&egrave;tode '%s' ha retornat un resultat inesperat",
 	'CallException:NotRPCCall' => "La crida no sembla ser una crida XML-RPC v&agrave;lida",
+	 
+	'PluginException:NoPluginName' => "No s'ha pugut trobar el nom del plugin",
+	 
+	'SecurityException:authenticationfailed' => "No s'ha pogut autenticar l'usuari",
+	 
+	'CronException:unknownperiod' => "%s no és un per&iacute;ode reconeixible",
+	 
+	'SecurityException:deletedisablecurrentsite' => "No pot eliminar o deshabilitar el lloc que est&agrave; veient en aquest moment!",
+	 
+	'RegistrationException:EmptyPassword' => "Els camps de contrasenyes s&oacute;n obligatoris",
+	'RegistrationException:PasswordMismatch' => "Les contrasenyes han de coincidir",
+	'LoginException:BannedUser' => "El teu ingr&eacute;s ha estat bloquejat moment&agrave;neament",
+	'LoginException:UsernameFailure' => "No s'ha pogut iniciar la sessi&oacute;. Si us plau, verifica el teu nom d'usuari i contrasenya",
+	'LoginException:PasswordFailure' => "No s'ha pogut iniciar la sessi&oacute;. Si us plau, verifica el teu nom d'usuari i contrasenya",
+	'LoginException:AccountLocked' => "El teu compte ha estat bloquejat per la quantitat d'intents erronis d'inici de sessi&oacute;",
+	 
+	'memcache:notinstalled' => "M&ograve;dul memcache del PHP no instal&middot;lat, has d'instal&middot;lar el m&ograve;dul php5-memcache",
+	'memcache:noservers' => "No hi han servers memcache definits, si us plau popula la variable $CONFIG->memcache_servers",
+	'memcache:versiontoolow' => "Memcache requereix com a m&iacute;nim la versi&oacute; %s per el seu funcionament, s'est&agrave; executant la versi&oacute; %s",
+	'memcache:noaddserver' => "Suport per a m&uacute;ltiples servidors deshabilitat, has d'actualitzar la llibreria memcache PECL",
+	 
+	'deprecatedfunction' => "Precauci&oacute;: Aquest codi utilitza la funci&oacute; obsoleta \"%s\" que no és compatible amb aquesta versi&oacute; d'Elgg",
+ 
+	'pageownerunavailable' => "Precauci&oacute;: L'administrador de p&agrave;gina %d no es troba accesible!",
+	'viewfailure' => "S'ha donat un error intern en la vista %s",
+	'changebookmark' => "Si us plau, modifica el teu &iacute;ndex per aquesta vista",
 
-	'PluginException:NoPluginName' => "No s&acute;ha pogut trobar el nom del plugin",
-
-	'SecurityException:authenticationfailed' => "No s&acute;ha pogut identificar l&acute;usuari",
-
-	'CronException:unknownperiod' => '%s no &eacute;s un per&iacute;ode 
-	recognoscible',
-
-'SecurityException:deletedisablecurrentsite' => 'No es pot eliminar o deshabilitar el lloc que est&agrave; veient en aquests moments!',
-
-	'RegistrationException:EmptyPassword' => 'Els camps de contrasenya s&oacute;n obligatoris',
-	'RegistrationException:PasswordMismatch' => 'Les contrassenyes han de coincidir',
-	'LoginException:BannedUser' => 'El seu ingr&eacute;s ha estat bloquejat de moment',
-	'LoginException:UsernameFailure' => 'No s&acute;ha pogut inciar la sessi&oacute;. Si us plau, verifiqui el seu nom d&acute;usuari',
-	'LoginException:PasswordFailure' => 'No s&acute;ha pogut iniciar la sessi&oacute;. Si us plau, verifiqui la seva contrasenya',
-	'LoginException:AccountLocked' => 'El seu compte ha estat bloquejat perqu&egrave; ha superat el nombre perm&egrave;s d&acute;intents d&acute;iniciar la sessi&oacute;',
-
-	'memcache:notinstalled' => 'M&ograve;dul memcache del PHP no instal&middot;lat. Ha d&acute;instal&middot;lar el m&ograve;dul php5-memcache',
-	'memcache:noservers' => 'No hi ha servidors memcache definits. Si us plau, popule la variable $CONFIG-cache_servers',
-	'memcache:versiontoocache requereix, com a m&iacute;nim, la versi&oacute; %s perqu&egrave; funcioni. S&acute;est&agrave; executant la versi&oacute; %s',
-	'memcache:noaddserver' => 'Suport per a m&uacute;ltiples servidors deshabilitat. Ha d&acute;actualizar la llibreria memcache PECL',
-
-	'deprecatedfunction' => 'Alerta: aquest codi utilitza la funci&oacute; obsoleta \'%s\' que no &eacute;s compatible amb aquesta versi&oacute;  d&acute;Elgg',
-
-	'pageownerunavailable' => 'Alerta: l&acute; administrador de la p&agrave;gina %d no es troba accessible!',
-	'viewfailure' => 'Hi ha hagut un error intern en la vista %s',
-	'changebookmark' => 'Si us plau, modifiqui el seu &iacute;ndex per aquesta vista',
+	
+	
+	
 /**
  * API
  */
-	'system.api.list' => "Llista de totes les crides API disponibles en el sistema",
-	'auth.gettoken' => "Aquesta crida API permet a l&acute;usuari obtenir un token d&acute;identificaci&oacute; que es pot usar per identificar futures crides API. S&acute;ha d&acute;enviar com a par&agrave;metre auth_token",
-
+	'system.api.list' => "Llista de totes les crides de l'API del sistema",
+	'auth.gettoken' => "La crida permet a l'usuari obtenir un testimoni d'autenticació que pot utilitzar per a futures crides a l'API enviant-lo com a paràmetre auth_token",
+	
+	
+	
+	
 /**
  * User details
  */
 	'name' => "Nom",
-	'correul' => "adre&ccedil;a de correu",
-	'username' => "Nom d&acute;usuari",
-	'loginusername' => "Nom d&acute;usuari o correu",
+	'email' => "Adreça de correu electrònic",
+	'username' => "Nom de l'usuari",
+	'loginusername' => "Nom de l'usuari o adreça de correu electrònic",
 	'password' => "Contrasenya",
-	'passwordagain' => "Contrasenya (una altra vegada, per verificar)",
-	'admin_option' => "Fer administrador a aquest usuari?",
-
+	'passwordagain' => "Contrasenya (verificació)",
+	'admin_option' => "Voleu que l'usuari sigui administrador?",
+	
+	
+	
+	
 /**
  * Access
  */
 	'PRIVATE' => "Privat",
-	'LOGGED_IN' => "Usuaris en l&iacute;nia",
-	'PUBLIC' => 'Tothom',
-	'access:friends:label' => "Contacte",
-	'access' => "Acc&eacute;s",
-
+	'LOGGED_IN' => "Usuaris connectats",
+	'PUBLIC' => "Tots",
+	'access:friends:label' => "Contactes",
+	'access' => "Accés",
+	
+	
+	
+	
 /**
  * Dashboard and widgets
  */
-	'dashboard' => "Panell de control",
-	'dashboard:nowidgets' => "El seu panell de control li permet seguir l&acute;activitat i el contingut que l&acute;interessen d&acute;aquest lloc",
-
-	'widgets:add' => 'Afegir widget',
-	'widgets:add:description' => "Premi el bot&oacute;  del widget que l&acute;interessi per afegir-lo a la p&agrave;gina",
-	'widgets:position:fixed' => '(Posici&oacute; fixa a la p&agrave;gina)',
-	'widget:unavailable' => 'Ja ha afegit aquest widget',
-	'widget:numbertodisplay' => 'Quantitat d&acute;elements a mostrar',
-
-	'widget:delete' => 'Esborrar %s',
-	'widget:edit' => 'Personalitzar aquest widget',
-
-	'widgets' => "Widgets",
-	'widget' => "Widget",
-	'item:object:widget' => "Widgets",
-	'widgets:save:success' => "El widget s&acute;ha desat correctament",
-	'widgets:save:failure' => "No s&acute;ha pogut desar el widget. Si us plau, intenti-ho una altra vegada",
-	'widgets:add:success' => "El widget s&acute;ha afegit correctament",
-	'widgets:add:failure' => "No s&acute;ha pogut afegir el widget",
-	'widgets:move:failure' => "No s&acute;ha pogut desar la nova posici&oacute; del widget",
-	'widgets:remove:failure' => "No s&acute;ha pogut esborrar el widget",
-
+	'dashboard' => "Quadre de control",
+	'dashboard:nowidgets' => "El quadre de control us permet seguir l'activitat i el contingut que us pugui interessar del lloc web",
+	
+	'widgets:add' => "Afegir un enginy",
+	'widgets:add:description' => "Per afegir un enginy a la pàgina premeu el botó",
+	'widgets:position:fixed' => "(Posició fixa a la pàgina)",
+	'widget:unavailable' => "S'ha afegit l'enginy",
+	'widget:numbertodisplay' => "Quantitat d'elements a visualitzar",
+	
+	'widget:delete' => "Suprimir %s",
+	'widget:edit' => "Personalitzar l'enginy",
+	
+	'widgets' => "Enginys",
+	'widget' => "Enginy",
+	'item:object:widget' => "Enginys",
+	'widgets:save:success' => "L'enginy s'ha desat correctament",
+	'widgets:save:failure' => "No s'ha pogut desar l'enginy. Torneu-ho a intentar",
+	'widgets:add:success' => "L'enginy s'ha afegit correctament",
+	'widgets:add:failure' => "No s'ha pogut afegir l'enginy",
+	'widgets:move:failure' => "No s'ha pogut desar la posició de l'enginy",
+	'widgets:remove:failure' => "No s'ha pogut suprimir l'enginy",	
+	
+	
+		
+	
 /**
- * Groups
- */
+  * Groups
+	*/
 	'group' => "Grup",
 	'item:group' => "Grups",
 
-/**
- * Users
- */
-	'user' => "Usuari",
-	'item:user' => "Usuaris",
+
+
 
 /**
- * Friends
- */
+	* Users
+	*/
+	'user' => "Usuari/a",
+	'item:user' => "Usuaris/es",
+	
+	
+	
+
+/**
+	* Friends
+	*/
 	'friends' => "Contactes",
 	'friends:yours' => "Els teus contactes",
-	'friends:owned' => "Contactes de %s",
+	'friends:owned' => "Contacte de %s",
 	'friend:add' => "Nou contacte",
 	'friend:remove' => "Esborrar contacte",
-
-	'friends:add:successful' => "%s ha estat afegit com a contacte",
-	'friends:add:failure' => "No s&acute;ha pogut afegir %s com a contacte. Si us plau, torni-ho a intentar",
-
-	'friends:remove:successful' => "S&acute;ha esborrat  %s dels seus contactes",
-	'friends:remove:failure' => "No s&acute;ha pogut esborrar %s dels seus contactes. Si us plau, torni-ho a intentar",
-
-	'friends:none' => "Aquest usuari no t&eacute; cap contacte",
-	'friends:none:you' => "Encara no tens cap contacte",
-
-	'friends:none:found' => "No s&acute;ha trobat cap contacte",
-
-	'friends:of:none' => "Ning&uacute; no ha afegit aquest usuari com a contacte",
-	'friends:of:none:you' => "Ning&uacute; no t&acute;ha afegit com a contacte. Pots comen&ccedil;ar a afegir contingut i completar el teu perfil perqu&egrave; la gent et trobi.",
-
+	
+	'friends:add:successful' => "S'ha afegit a %s com a contacte",
+	'friends:add:failure' => "No s'ha pogut afegir a %s com a contacte. Si us plau, intenta-ho de nou",
+	
+	'friends:remove:successful' => "S'ha esborrat a %s dels teus contactes",
+	'friends:remove:failure' => "No s'ha pogut esborrar a %s dels teus contactes. Si us plau intenta-ho de nou",
+	
+	'friends:none' => "Aquest/a usuari/a encara no t&eacute; contactes",
+	'friends:none:you' => "Encara no tens contactes",
+	
+	'friends:none:found' => "No s'han trobat contactes",
+	
+	'friends:of:none' => "Ning&uacute; ha afegit encara a aquest/a usuari/a com a contacte",
+	'friends:of:none:you' => "Ning&uacute; t'ha afegit encara com a contacte. Pots completar el teu perfil i afegir continguts perque la gent et trobi!",
+	
 	'friends:of:owned' => "Contactes de %s",
-
+	
 	'friends:of' => "Contactes de",
 	'friends:collections' => "Col&middot;leccions de contactes",
 	'collections:add' => "Nova col&middot;lecci&oacute;",
 	'friends:collections:add' => "Nova col&middot;lecci&oacute; de contactes",
-	'friends:addfriends' => "Seleccionar contactes",
+	'friends:addfriends' => "Sel&middot;leccionar contactes",
 	'friends:collectionname' => "Nom de la col&middot;lecci&oacute;",
-	'friends:collectionfriends' => "Contactes en aquesta col&middot;lecci&oacute;",
+	'friends:collectionfriends' => "Contactes en la col&middot;lecci&oacute;",
 	'friends:collectionedit' => "Editar aquesta col&middot;lecci&oacute;",
-	'friends:nocollections' => "Encara no tens cap col&middot;lecci&oacute;",
-	'friends:collectiondeleted' => "La col&middot;lecci&oacute; ha estat eliminada",
-	'friends:collectiondeletefailed' => "No s&acute;ha pogut eliminar la col&middot;lecci&oacute;",
-	'friends:collectionadded' => "La col&middot;lecci&oacute; ha estat creada correctament",
-	'friends:nocollectionname' => "Ha de posar un nom a la col&middot;lecci&oacute; abans de crear-la",
-	'friends:collections:members' => "Membres d&acute;aquesta col&middot;lecci&oacute;",
+	'friends:nocollections' => "Encara no tens col&middot;leccions",
+	'friends:collectiondeleted' => "La col&middot;lecci&oacute; ha estat esborrada",
+	'friends:collectiondeletefailed' => "No s'ha pogut eliminar la col&middot;lecci&oacute;",
+	'friends:collectionadded' => "La col&middot;lecci&oacute; s'ha creat correctament",
+	'friends:nocollectionname' => "Has de posar un nom a la col&middot;lecci&oacute; abans de crear-la",
+	'friends:collections:members' => "Membres d'aquesta col&middot;lecci&oacute;",
 	'friends:collections:edit' => "Editar col&middot;lecci&oacute;",
-	'friends:collections:edited' => "Col&middot;lecci&oacute; desada",
-	'friends:collection:edit_failed' => 'No s&acute;ha pogut desar la col&middot;lecci&oacute;',
-
+	'friends:collections:edited' => "Col&middot;lecci&oacute; guardada",
+	'friends:collection:edit_failed' => "No s'ha pogut guardar la col&middot;lecci&oacute;",
+	
 	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-
+	
 	'avatar' => 'Imatge de perfil',
-	'avatar:create' => 'Crear una imatge de perfil',
-	'avatar:edit' => 'Editar la imatge de perfil',
+	'avatar:create' => 'Crea la teva imatge de perfil',
+	'avatar:edit' => 'Editar imatge de perfil',
 	'avatar:preview' => 'Previsualitzar',
-	'avatar:upload' => 'Pujar una nova imatge de perfil',
+	'avatar:upload' => 'Pujar nova imatge de perfil',
 	'avatar:current' => 'Imatge de perfil actual',
-	'avatar:crop:title' => 'Eina per retallar la imatge de perfil',
-	'avatar:upload:instructions' => "La seva imatge de perfil es mostrar&agrave; a la xarxa. Podr&agrave; modificar-la quan ho desitgi (Formats d&acute;arxiu acceptats: GIF, JPG o PNG)",
-	'avatar:create:instructions' => 'Premi i arrossegui un quadrat de baix per seleccionar el retall de la imatge. Apareixer&agrave; una previsualitzaci&oacute; a la caixa de la dreta. Quan hagi acabat, premi  \'Crear imatge de perfil\'. La versi&oacute; retallada ser&agrave; la que s&acute;usi per mostrar a la xarxa',
-	'avatar:upload:success' => 'La nova imatge de perfil s&acute;ha carregat correctament',
-	'avatar:upload:fail' => 'Ha fallat la c&agrave;rrega de la imatge de perfil',
-	'avatar:resize:fail' => 'Hi ha hagut una errada en la modificaci&oacute; del tamany de la imatge de perfil',
-	'avatar:crop:success' => 'La retallada de la imatge de perfil ha acabat correctament',
-	'avatar:crop:fail' => 'Hi ha hagut una errada en la retallada de la imatge de perfil',
-
+	'avatar:crop:title' => "Eina de retall d'imatge de perfil",
+	'avatar:upload:instructions' => "La teva imatge de perfil ja es mostra a la plateforma. Podr&agrave;s modificar-la sempre que vulguis (Formats d'arxiu acceptats: GIF, JPG o PNG)",
+	'avatar:create:instructions' => "Fes click i arrossega un quadrat per a sel&middot;leccionar la retallada de la imatge. Veur&agrave;s una previsualitzaci&oacute; a la caixa de la dreta. Quan estiguis d'acord amb la previsualitzaci&oacute;, fes click a \'Crea la teva imatge de perfil\'. La versi&oacute; retallada ser&agrave; la utilitzada per a mostrar a la plataforma",
+	'avatar:upload:success' => 'Imatge de perfil pujada correctament',
+	'avatar:upload:fail' => 'Ha fallat la pujada de la imatge de perfil',
+	'avatar:resize:fail' => 'Error al modificar el tamany de la imatge de perfil',
+	'avatar:crop:success' => 'Retallada de la imatge de perfil finalitzada correctament',
+	'avatar:crop:fail' => 'Error en la retallada de la imatge de perfil',
+	
 	'profile:edit' => 'Editar perfil',
 	'profile:aboutme' => "Sobre mi",
 	'profile:description' => "Sobre mi",
@@ -367,418 +390,447 @@ $catalan = array(
 	'profile:location' => "Ubicaci&oacute;",
 	'profile:skills' => "Habilitats",
 	'profile:interests' => "Interessos",
-	'profile:contactemail' => "Correu de contacte",
+	'profile:contactemail' => "Email de contacte",
 	'profile:phone' => "Tel&egrave;fon",
-	'profile:mobile' => "Tel&egrave;fon m&ograve;bil",
-	'profile:website' => "Lloc web",
+	'profile:mobile' => "M&ograve;vil",
+	'profile:website' => "Lloc Web",
 	'profile:twitter' => "Usuari de Twitter",
-	'profile:saved' => "El seu perfil s&acute;ha guardat correctament",
-
+	'profile:saved' => "El teu perfil s'ha guardat correctament",
+		
 	'admin:appearance:profile_fields' => 'Editar camps de perfil',
 	'profile:edit:default' => 'Editar camps de perfil',
 	'profile:label' => "Etiqueta de perfil",
 	'profile:type' => "Tipus de perfil",
-	'profile:editdefault:delete:fail' => 'Hi ha hagut una errada en eliminar l&acute;element de perfil per defecte',
-	'profile:editdefault:delete:success' => 'Element per defecte de perfil eliminat!',
-	'profile:defaultprofile:reset' => 'Torna a inciar el  perfil de sistema per defecte',
-	'profile:resetdefault' => 'Torna a iniciar el perfil de sistema per defecte',
-	'profile:explainchangefields' => "Pot substituir els camps de perfil que hi ha amb d&acute;altres creats per vost&egrave; si utilitza el formulari de sota. \n\n Ingressi un nou camp de perfil. Per exemple, 'Equip favorit'. Despr&eacute;s, seleccioni el tipus de camp. Per exemple, 'text, url, etiquetes'. Premi el bot&oacute;  'Afegir'. Per tornar a ordenar els camps, arrossegui el control al costat de l&acute;etiqueta del camp. Per editar l&acute;etiqueta del camp, faci clic al text de l&acute;etiqueta.  \n\n Pot tornar a la disposici&oacute; original del perfil en qualsevol moment, per&ograve; perdr&agrave; la informaci&oacute; creada en els camps personalitzats del perfil fins al moment",
+	'profile:editdefault:delete:fail' => 'Error en eliminar &iacute;tem de perfil per defecte',
+	'profile:editdefault:delete:success' => '&Iacute;tem de perfil per defecte eliminat!',
+	'profile:defaultprofile:reset' => 'Reinici de perfil de sistema per defecte',
+	'profile:resetdefault' => 'Reiniciar perfil de sistema per defecte',
+	'profile:explainchangefields' => "Pots canviar els camps del perfil utilitzant el formulari. \n\n Introdueix un nou nom de camp de perfil, per exemple, 'Tecnologia renovable favorita', despr&eacute;s sel&middot;lecciona el tipus de camp (eg. texte, url, tags), i fes click al bot&oacute; 'Afegir'. Per a endreçar els camps, arrossega el control al costat de l'etiqueta del camp. Per a editar l'etiqueta del camp, fes click en el texte de l'etiqueta per a tornar-ho editable. \n\n Pots tornar a la disposici&oacute; original del perfil en qualsevol moment, per&ograve; perdr&agrave;s la informaci&oacute; creada en els camps personalitzats del perfil",
 	'profile:editdefault:success' => 'Element afegit al perfil per defecte correctament',
-	'profile:editdefault:fail' => 'No s&acute;ha pogut guardar el perfil per defecte',
-
-/**
- * Feeds
- */
-	'feed:rss' => 'Canal RSS d&acute;actualitzacions per aquesta p&agrave;gina',
+	'profile:editdefault:fail' => "No s'ha pugut guardar el perfil per defecte",
+	
+	
+	
 	
 /**
- * Links
- */
-	'link:view' => 'Veure enlla&ccedil;',
-	'link:view:all' => 'Veure&acute;ls tots',
+	* Feeds
+	*/
+	'feed:rss' => 'Canal RSS per aquesta p&agrave;gina',
+	
+
+
 
 /**
- * River
- */
+	* Links
+	*/
+	'link:view' => 'Veure enllaç',
+	'link:view:all' => 'Veure tots',
+
+	
+	
+
+/**
+	* River
+	*/
 	'river' => "River",
-	'river:friend:user:default' => "%s &eacute;s ara un contacte de %s",
+	'river:friend:user:default' => "%s ara &eacute;s contacte de %s",
 	'river:update:user:avatar' => '%s t&eacute; una nova imatge de perfil',
-	'river:noaccess' => 'No t&eacute; perm&iacute;s per veure aquest element',
+	'river:noaccess' => 'No tens permisos per a veure aquest element',
 	'river:posted:generic' => '%s publicat',
-	'riveritem:single:user' => 'un usuari',
-	'riveritem:plural:user' => 'alguns usuaris',
+	'riveritem:single:user' => 'un/a usuari/a',
+	'riveritem:plural:user' => 'alguns/es usuaris/es',
 	'river:ingroup' => 'en el grup %s',
 	'river:none' => 'Sense activitat',
-
+	
 	'river:widget:title' => "Activitat",
-	'river:widget:description' => "Mostrar l&acute;activitat recent",
-	'river:widget:type' => "Tipus d&acute;activitat",
-	'river:widgets:friends' => 'Activitat d&acute;amics',
-	'river:widgets:all' => 'Tota l&acute;activitat del lloc',
+	'river:widget:description' => "Veure la &uacute;ltima activitat",
+	'river:widget:type' => "Tipus d'activitat",
+	'river:widgets:friends' => 'Activitat de contactes',
+	'river:widgets:all' => "Tota l'activitat del lloc",
+
+	
+	
 
 /**
- * Notifications
- */
+	* Notifications
+	*/
 	'notifications:usersettings' => "Configuraci&oacute; de notificacions",
-	'notifications:methods' => "Si us plau, indiqui els m&egrave;todes que vol habilitar",
+	'notifications:methods' => "Si us plau, indica els m&egrave;todes que vols habilitar",
+	
+	'notifications:usersettings:save:ok' => "La teva configuraci&oacute; de notificacions s'ha guardat correctament",
+	'notifications:usersettings:save:fail' => "Hi ha hagut un error al guardar la configuraci&oacute; de notificacions",
+	
+	'user.notification.get' => 'Retornar la configuraci&oacute; de notificacions per un/a usuari/a',
+	'user.notification.set' => 'Guardar la configuraci&oacute; de notificacions per un/a usuari/a',
+	
+	
 
-	'notifications:usersettings:save:ok' => "La seva configuraci&oacute; de notificacions s&acute;ha guardat correctament",
-	'notifications:usersettings:save:fail' => "Hi ha hagut una errada a l&acute;hora de desar  la configuraci&oacute; de notificacions",
-
-	'user.notification.get' => 'Retornar la configuraci&oacute; de notificacions per a un usuari en concret',
-	'user.notification.set' => 'Establir la configuraci&oacute; de notificacions per a un usuari en concret',
+	
 /**
- * Search
- */
+	* Search
+	*/
 	'search' => "Cercar",
 	'searchtitle' => "Cercar: %s",
-	'users:searchtitle' => "Cercar per  usuaris: %s",
+	'users:searchtitle' => "Cercar per usuaris/es: %s",
 	'groups:searchtitle' => "Cercar per grups: %s",
 	'advancedsearchtitle' => "%s amb coincid&egrave;ncies en resultats %s",
-	'notfound' => "No s&acute;han trobat resultats",
+	'notfound' => "No s'han trobat resultats",
 	'next' => "Seg&uuml;ent",
 	'previous' => "Anterior",
-
+	
 	'viewtype:change' => "Modificar tipus de llista",
-	'viewtype:list' => "Vista de llista",
+	'viewtype:list' => "Veure llista",
 	'viewtype:gallery' => "Galeria",
-
-	'tag:search:startblurb' => "Elements amb tags que coincideixin amb '%s':",
-
-	'user:search:startblurb' => "Usuaris que coincideixin amb '%s':",
-	'user:search:finishblurb' => "Cliqui aqu&iacute; per veure m&eacute;s",
-
+	
+	'tag:search:startblurb' => "&Iacute;tems amb etiquetes que coincideixen amb '%s':",
+	
+	'user:search:startblurb' => "Usuaris/es que coincideixen amb '%s':",
+	'user:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
+	
 	'group:search:startblurb' => "Grups que coincideixen amb '%s':",
-	'group:search:finishblurb' => "Cliqui aqu&iacute; per veure m&eacute;s",
+	'group:search:finishblurb' => "Click aqu&iacute; per a veure m&eacute;s",
 	'search:go' => 'Anar',
 	'userpicker:only_friends' => 'Nom&eacute;s contactes',
+	
+	
 
+	
 /**
- * Account
- */
+	* Account
+	*/
 	'account' => "Compte",
 	'settings' => "Configuraci&oacute;",
 	'tools' => "Eines",
-
+	
 	'register' => "Registrar-se",
-	'registerok' => "S&acute;ha registrat correctament per a %s",
-	'registerbad' => "No s&acute;ha pogut registrar per culpa d&acute;una errada desconeguda",
-	'registerdisabled' => "L&acute;administrador del sistema ha deshabilitat el registre",
-
-	'registration:notemail' => 'No ha ingressat una adre&ccedil;a de correu v&agrave;lida',
-	'registration:userexists' => 'El nom de l&acute;usuari ja existeix',
-	'registration:usernametooshort' => 'El nom de l&acute;usuari ha de tenir, com a m&iacute;nim, %u car&agrave;cters',
-	'registration:passwordtooshort' => 'La contrasenya ha de tenir, com a m&iacute;nim, %u car&agrave;cters',
-	'registration:dupeemail' => 'Aquesta adre&ccedil;a de correu ja est&agrave; registrada',
-	'registration:invalidchars' => 'Ens sap greu, el seu nom d&acute;usuari t&eacute; car&agrave;cters no v&agrave;lids: %s. Aquests s&oacute;n tots els car&agrave;cters que estan invalidats:  %s',
-	'registration:emailnotvalid' => 'Ens sap greu, l&acute;adre&ccedil;a de correu que ha ingressat no &eacute;s v&agrave;lida en el sistema',
-	'registration:passwordnotvalid' => 'Ens sap greu, la contrasenya que ha ingressat no &eacute;s v&agrave;lida en el sistema',
-	'registration:usernamenotvalid' => 'Ens sap greu, el nom d&acute;usuari que ha ingressat no &eacute;s v&agrave;lid en el sistema',
-
-	'adduser' => "Nou usuari",
-	'adduser:ok' => "S&acute;ha afegit correctament un nou usuari",
-	'adduser:bad' => "No s&acute;ha pogut afegir el nou usuari",
-
-	'user:set:name' => "Configuraci&oacute; del nom del compte",
-	'user:name:label' => "El meu nom per mostrar",
-	'user:name:success' => "S&acute;ha modificat correctament el seu nom a la xarxa",
-	'user:name:fail' => "No s&acute;ha pogut modificar el seu nom a la xarxa. Si us plau, asseguri's que no &eacute;s massa llarg i torni-ho a intentar",
-
+	'registerok' => "T'has registrat correctament per %s",
+	'registerbad' => "No t'has pugut registrar degut a un error desconegut",
+	'registerdisabled' => "El registre s'ha deshabilitat per l'administrador del sistema",
+	
+	'registration:notemail' => "No has ingressat una adreça d'email v&agrave;lida",
+	'registration:userexists' => "El nom d'usuari/a ja existeix",
+	'registration:usernametooshort' => "El nom d'usuari/a ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:passwordtooshort' => "La contrasenya ha de tenir un m&iacute;nim de %u car&agrave;cters",
+	'registration:dupeemail' => "Ja es troba registrada la adreça d'email",
+	'registration:invalidchars' => "El teu nom d'usuari/a t&eacute; car&agrave;acters inv&agrave;lids: %s. Aquests s&oacute;n tots els car&agrave;cters que es troban invalidats: %s",
+	'registration:emailnotvalid' => "La adreça d'email que has ingressat &eacute;s inv&agrave;lid al sistema",
+	'registration:passwordnotvalid' => 'La contrasenya que has ingressat es inv&agrave;lid al sistema',
+	'registration:usernamenotvalid' => "El nom d'usuari/a que has ingressat &eacute;s inv&agrave;lid al sistema",
+	
+	'adduser' => "Nou usuari/a",
+	'adduser:ok' => "S'ha enregistrat correctament un nou usuari/a",
+	'adduser:bad' => "No s'ha pogut enregistrar el nou usuari/a",
+	
+	'user:set:name' => "Configuraci&oacute; del nom de compte",
+	'user:name:label' => "El meu nom per a mostrar",
+	'user:name:success' => "S'ha modificat correctament el seu nom a la plataforma",
+	'user:name:fail' => "No s'ha pogut modificar el seu nom a la plataforma. Si us plau, assegura't que no es massa llarg i prova de nou",
+	
 	'user:set:password' => "Contrasenya del compte",
 	'user:current_password:label' => 'Contrasenya actual',
 	'user:password:label' => "Nova contrasenya",
 	'user:password2:label' => "Confirmar nova contrasenya",
 	'user:password:success' => "Contrasenya modificada",
-	'user:password:fail' => "No s&acute;ha pogut modificar la contrasenya a la xarxa",
+	'user:password:fail' => "No s'ha pogut modificar la contrasenya a la plataforma",
 	'user:password:fail:notsame' => "Les dues contrasenyes no coincideixen!",
 	'user:password:fail:tooshort' => "La contrasenya &eacute;s massa curta!",
-	'user:password:fail:incorrect_current_password' => 'La contrasenya ingressada no &eacute;s correcta',
-	'user:resetpassword:unknown_user' => 'Usuari no v&agrave;lid',
-	'user:resetpassword:reset_password_confirm' => 'Quan modifiqui la contrasenya, se li enviar&agrave; la nova a l&acute;adre&ccedil;a de correu registrada',
-
-	'user:set:language' => "Configuraci&oacute; d&acute;idioma",
-	'user:language:label' => "El seu idioma",
-	'user:language:success' => "S&acute;ha actualitzat la configuraci&oacute; d&acute;idioma",
-	'user:language:fail' => "No s&acute;ha pogut actualitzar la configuraci&oacute; d&acute;idioma",
-
-	'user:username:notfound' => 'No s&acute;ha trobat l&acute;usuari %s',
-
-	'user:password:lost' => 'He oblidat la meva contrasenya',
-	'user:password:resetreq:success' => 'Sol&middot;licitud de nova contrasenya confirmada. Li hem enviat un correu electr&ograve;nic',
-	'user:password:resetreq:fail' => 'No s&acute;ha pogut sol&middot;lictar una nova contrasenya',
-
-	'user:password:text' => 'Per sol&middot;licitar una nova contrasenya, ingressi el seu nom d&acute;usuari i premi el bot&oacute; de sota',
-
-	'user:persistent' => 'Recordeu-me',
-
-	'walled_garden:welcome' => 'Benvinguda o benvingut',
-
+	'user:password:fail:incorrect_current_password' => "La contrasenya ingressada &eacute;s incorrecta",
+	'user:resetpassword:unknown_user' => "Usuari/a inv&agrave;lid",
+	'user:resetpassword:reset_password_confirm' => "Al modificar la contrasenya rebr&agrave;s la nova a la direcci&oacute; d'email registrada",
+	
+	'user:set:language' => "Configuraci&oacute; de l'idioma",
+	'user:language:label' => "El teu idioma",
+	'user:language:success' => "S'ha actualitzat la teva configuraci&oacute; d'idioma",
+	'user:language:fail' => "No s'ha pogut actualitzar la teva configuraci&oacute; d'idioma",
+	
+	'user:username:notfound' => "No es troba l'usuari/a %s",
+	
+	'user:password:lost' => "He oblidat la meva contrasenya",
+	'user:password:resetreq:success' => "Sol&middot;licitut de nova contrasenya confirmada, se t'ha enviat un email",
+	'user:password:resetreq:fail' => "No s'ha pugut sol&middot;licitar una nova contrasenya",
+	
+	'user:password:text' => "Per a sol&middot;licitar una nova contrasenya ingressa el teu nom d'usuari/a i pressiona el bot&oacute; de sota",
+	
+	'user:persistent' => "Recorda-m'ho",
+	
+	'walled_garden:welcome' => "Benvingut a",
+	
+	
+	
+	
 /**
- * Administration
- */
-	'menu:page:header:administer' => 'Administrar',
-	'menu:page:header:configure' => 'Configurar',
-	'menu:page:header:develop' => 'Desenvolupar',
-	'menu:page:header:default' => 'Altres',
-
-	'admin:view_site' => 'Veure lloc',
-	'admin:loggedin' => 'Sessi&oacute; iniciada como %s',
-	'admin:menu' => 'Men&uacute;',
-
-	'admin:configuration:success' => "La seva configuraci&oacute; ha estat guardada",
-	'admin:configuration:fail' => "No s&acute;ha pogut guardar la seva configuraci&oacute;",
-
-	'admin:unknown_section' => 'Secci&oacute; d&acute;administraci&oacute; no v&agrave;lida',
-
-	'admin' => "Administraci&oacute;",
-	'admin:description' => "El panell d&acute;administraci&oacute; li permetr&agrave; organitzar tots els aspectes del sistema, des de la gesti&oacute; d&acute;usuaris fins al comportament dels plugins. Seleccioni una opci&oacute; a sota per comen&ccedil;ar",
-
-	'admin:statistics' => "Estad&iacute;stiques",
-	'admin:statistics:overview' => 'Resum',
-
-	'admin:appearance' => 'Aspecte',
-	'admin:utilities' => 'Utiltats',
-
+	* Administration
+	*/
+	'menu:page:header:administer' => "Administrar",
+	'menu:page:header:configure' => "Configurar",
+	'menu:page:header:develop' => "Desenvolupar",
+	'menu:page:header:default' => "Altres",
+	
+	'admin:view_site' => "Veure lloc web",
+	'admin:loggedin' => "Sessió iniciada com a %s",
+	'admin:menu' => "Menú",
+	
+	'admin:configuration:success' => "S'ha desat la vostra configuració",
+	'admin:configuration:fail' => "No s'ha pogut desar la vostra configuració",
+	
+	'admin:unknown_section' => "La secció d'administració no és vàlida",
+	
+	'admin' => "Administració",
+	'admin:description' => "El tauler d'administració us permet organitzar tots els aspectes del sistema, des de la gestió dels usuaris al comportament de les extensions. Per començar, seleccioneu una opció",
+	
+	'admin:statistics' => "Estadístiques",
+	'admin:statistics:overview' => "Resum",
+	
+	'admin:appearance' => "Aparença",
+	'admin:utilities' => "Utilitats",
+	
 	'admin:users' => "Usuaris",
-	'admin:users:online' => 'Connectats ara mateix',
-	'admin:users:newest' => 'Els m&eacute;s recents',
-	'admin:users:add' => 'Afegir nou usuari',
-	'admin:users:description' => "Aquest panell d&acute;administraci&oacute; li permetr&agrave; gestionar la configuraci&oacute; d&acute;usuaris de la xarxa. Seleccioni una opci&oacute; a sota per comen&ccedil;ar",
-	'admin:users:adduser:label' => "Cliqui aqu&iacute; per afegir un nou usuari..",
-	'admin:users:opt:linktext' => "Configurar usuaris..",
-	'admin:users:opt:description' => "Configurar usuaris i informaci&oacute; de comptes",
-	'admin:users:find' => 'Cercar',
-
-	'admin:settings' => 'Configuraci&oacute;',
-	'admin:settings:basic' => 'Configuraci&oacute;b&agrave;sica',
-	'admin:settings:advanced' => 'Configuraci&oacute; avan&ccedil;ada',
-	'admin:site:description' => "Aquest panell d&acute;administraci&oacute; li permetr&agrave; gestionar la configuraci&oacute; global de la xarxa. Seleccioni una opci&oacute; a sota per comen&ccedil;ar",
-	'admin:site:opt:linktext' => "Configurar lloc..",
-	'admin:site:access:warning' => "Les modificacions en el control dels acessos nom&eacute;s tindran impacte en els acessos futurs",
-
-	'admin:dashboard' => 'Panell de control',
-	'admin:widget:online_users' => 'Usuaris connectats',
-	'admin:widget:online_users:help' => 'Llista dels usuaris connectats ara mateix a la xarxa',
-	'admin:widget:new_users' => 'Usuaris nous',
-	'admin:widget:new_users:help' => 'Llista dels usuaris m&eacute;s recents',
-	'admin:widget:content_stats' => 'Estad&iacute;stiques de contingut',
-	'admin:widget:content_stats:help' => 'Seguiment del contingut creat pels usuaris de la xarxa',
-	'widget:content_stats:type' => 'Tipus de contingut',
-	'widget:content_stats:number' => 'N&uacute;mero',
-
-	'admin:widget:admin_welcome' => 'Benvinguda o benvingut',
-	'admin:widget:admin_welcome:help' => "Aquesta &eacute;s l&acute;&agrave;rea d&acute;administraci&oacute;",
+	'admin:users:online' => "Connectats",
+	'admin:users:newest' => "El més nou",
+	'admin:users:add' => "Afegir un usuari",
+	'admin:users:description' => "El tauler d'administració us permet gestionar la configuració d'usuaris de la xarxa. Per començar, seleccioneu una opció",
+	'admin:users:adduser:label' => "Premeu per afegir un nou usuari..",
+	'admin:users:opt:linktext' => "Configuració dels usuaris..",
+	'admin:users:opt:description' => "Configuració dels usuaris i informació dels comptes..",
+	'admin:users:find' => "Cercar",
+	
+	'admin:settings' => "Configuració",
+	'admin:settings:basic' => "Configuració Bàsica",
+	'admin:settings:advanced' => "Configuració Avançada",
+	'admin:site:description' => "El tauler d'administració us permet gestionar la configuració global de la xarxa. Per començar, seleccioneu una opció",
+	'admin:site:opt:linktext' => "Configurar el lloc web..",
+	'admin:site:access:warning' => "Les modificacions del control d'accés s'activaran en el proper accés",
+	
+	'admin:dashboard' => "Tauler de control",
+	'admin:widget:online_users' => "Usuaris connectats",
+	'admin:widget:online_users:help' => "Llista d'usuaris connectats a la xarxa",
+	'admin:widget:new_users' => "Nous usuaris",
+	'admin:widget:new_users:help' => "Fes una llista dels usuaris més nous",
+	'admin:widget:content_stats' => "Estadístiques del contingut",
+	'admin:widget:content_stats:help' => "Seguiment del contingut creat pels usuaris de la xarxa",
+	'widget:content_stats:type' => "Tipus de contingut",
+	'widget:content_stats:number' => "Número",
+	
+	'admin:widget:admin_welcome' => "Benvinguts",
+	'admin:widget:admin_welcome:help' => "Aquesta és l'àrea d'administració",
 	'admin:widget:admin_welcome:intro' =>
-'Benvinguda o benvingut! Est&agrave; veient el panell de control de l&acute;administraci&oacute;. &Eacute;s &uacute;til per visualitzar les novetats de la xarxa',
-
+"Benvinguts! Us trobeu al tauler de control de l'administració. És una eina útil per a visualitzar les novetats de la xarxa",
+	
 	'admin:widget:admin_welcome:admin_overview' =>
-"La navegaci&oacute; per l&acute;&agrave;rea d&acute;administraci&oacute; es troba al men&uacute; de la dreta, que s&acute;organitza en "
+"La navegació per l'àrea d'administració es troba al menú de la dreta i s'organitza en"
 . " tres seccions:
-<dl>
-		<dt>Administrar</dt>
-		<dd>Tasques di&agrave;ries, com fer monitoratge de contingut reportat, verificar qui est&agrave; connectat i visualitzar estad&iacute;stiques.</dd>
-		<dt>Configurar</dt>
-		<dd>Tasques ocasionals, com establir el nom de la xarxa social o activar i desactivar plugins.</dd>
-		<dt>Desenvolupar</dt>
-		<dd>Per a desenvolupadors que construeixen plugins o dissenyen temes personalitzats. (Requereix el plugin de desenvolupador.)</dd>
-</dl>
+	<dl>
+		<dt>Administrar</dt><dd>Tasques diàries com monitoritzar els continguts, verificar els usuaris connectats i visualitzar les estadístiques.</dd>
+		<dt>Configurar</dt><dd>Tasques ocasionals com establir el nom de la xarxa social i activar/desactivar extensions.</dd>
+		<dt>Desenvolupar</dt><dd>Per a desenvolupadors d'extensions i disseny de temes personalitzats. (Necessita l'extensió de desenvolupador.)</dd>
+	</dl>
 	",
-
+	
 	// argh, this is ugly
-	'admin:widget:admin_welcome:outro' => '<br />
-	Asseguri&acute;s de verificar els recursos disponibles als enlla&ccedil;os a peu de p&agrave;gina i gr&agrave;cies per utilitzar Elgg!',
-
-	'admin:footer:faq' => 'FAQs d&acute;Administraci&oacute;',
-	'admin:footer:manual' => 'Manual d&acute;Administraci&oacute;',
-	'admin:footer:community_forums' => 'F&ograve;rums de la Comunitat Elgg',
-	'admin:footer:blog' => 'Blog Elgg',
-
-	'admin:plugins:category:all' => 'Tots els plugins',
-	'admin:plugins:category:active' => 'Plugins actius',
-	'admin:plugins:category:inactive' => 'Plugins inactius',
-	'admin:plugins:category:admin' => 'Admin',
-	'admin:plugins:category:bundled' => 'Incl&ograve;s',
-	'admin:plugins:category:content' => 'Contingut',
-	'admin:plugins:category:development' => 'Desenvolupament',
-	'admin:plugins:category:enhancement' => 'Millores',
-	'admin:plugins:category:api' => 'Servei/API',
-	'admin:plugins:category:communication' => 'Comunicaci&oacute;',
-	'admin:plugins:category:security' => 'Seguretat i spam',
-	'admin:plugins:category:social' => 'Social',
-	'admin:plugins:category:multimedia' => 'Multim&egrave;dia',
-	'admin:plugins:category:theme' => 'Temes',
-	'admin:plugins:category:widget' => 'Widgets',
-
-	'admin:plugins:sort:priority' => 'Prioritat',
-	'admin:plugins:sort:alpha' => 'Alfab&egrave;tic',
-	'admin:plugins:sort:date' => 'Els m&eacute;s nous',
-
-	'admin:plugins:markdown:unknown_plugin' => 'Plugin desconegut',
-	'admin:plugins:markdown:unknown_file' => 'Arxiu desconegut',
-
-
-	'admin:notices:could_not_delete' => 'Notificaci&oacute; de no s&acute;ha pogut eliminar',
-
-	'admin:options' => 'Opcions d&acute;Admin',
-
-
+	'admin:widget:admin_welcome:outro' => "<br />Verifiqueu els recursos disponibles als enllaços del peu de pàgina. Gràcies per utilitzar Elgg!",
+	
+	'admin:footer:faq' => "PMFs d'administració",
+	'admin:footer:manual' => "Manual d'Administració",
+	'admin:footer:community_forums' => "Fòrums de la comunitat de l'Elgg",
+	'admin:footer:blog' => "Bloc de l'Elgg",
+	
+	'admin:plugins:category:all' => "Totes les extensions",
+	'admin:plugins:category:active' => "Extensions activades",
+	'admin:plugins:category:inactive' => "Extensions desactivades",
+	'admin:plugins:category:admin' => "Administració",
+	'admin:plugins:category:bundled' => "Inclòs",
+	'admin:plugins:category:content' => "Contingut",
+	'admin:plugins:category:development' => "Desenvolupament",
+	'admin:plugins:category:enhancement' => "Millores",
+	'admin:plugins:category:api' => "Servei/API",
+	'admin:plugins:category:communication' => "Comunicació",
+	'admin:plugins:category:security' => "Seguretat i Spam",
+	'admin:plugins:category:social' => "Social",
+	'admin:plugins:category:multimedia' => "Multimèdia",
+	'admin:plugins:category:theme' => "Temes",
+	'admin:plugins:category:widget' => "Enginys",
+	
+	'admin:plugins:sort:priority' => "Prioritat",
+	'admin:plugins:sort:alpha' => "Alfabètic",
+	'admin:plugins:sort:date' => "Les més noves",
+	
+	'admin:plugins:markdown:unknown_plugin' => "Extensió desconeguda",
+	'admin:plugins:markdown:unknown_file' => "Arxiu desconegut",
+	
+	
+	'admin:notices:could_not_delete' => "No s'ha pogut suprimir la notificació",
+	
+	'admin:options' => "Opcions d'administració",
+	
+	
+	
+	
 /**
  * Plugins
  */
-	'plugins:settings:save:ok' => "Configuraci&oacute; per al plugin %s desada correctament",
-	'plugins:settings:save:fail' => "Hi ha hagut una errada en intentar guardar la configuraci&oacute; per al plugin %s",
-	'plugins:usersettings:save:ok' => "Configuraci&oacute; de l&acute;usuari per al plugin %s guardada",
-	'plugins:usersettings:save:fail' => "Hi ha hagut una errada en intentar guardar la configuraci&oacute; de l&acute;usuari per al plugin %s",
-	'item:object:plugin' => 'Plugins',
-
-	'admin:plugins' => "Plugins",
-	'admin:plugins:activate_all' => 'Activar-los tots',
-	'admin:plugins:deactivate_all' => 'Desactivar-los tots',
-	'admin:plugins:activate' => 'Activar',
-	'admin:plugins:deactivate' => 'Desactivar',
-	'admin:plugins:description' => "Aquest panell li permetr&agrave; controlar i configurar les eines instal&middot;lades al seu lloc",
-	'admin:plugins:opt:linktext' => "Configurar eines..",
-	'admin:plugins:opt:description' => "Configurar les eines instal&middot;lades al lloc. ",
+	'plugins:settings:save:ok' => "La configuració de l'extensió %s s'ha desat correctament",
+	'plugins:settings:save:fail' => "S'ha produït un error al desar la configuració de l'extensió %s",
+	'plugins:usersettings:save:ok' => "S'ha desat la configuració de l'usuari per a l'extensió %s",
+	'plugins:usersettings:save:fail' => "S'ha produït un error al desar la configuració de l'usuari per a l'extensió %s",
+	'item:object:plugin' => "Extensions",
+	
+	'admin:plugins' => "Extensions",
+	'admin:plugins:activate_all' => "Activar-les tots",
+	'admin:plugins:deactivate_all' => "Desactivar-les tots",
+	'admin:plugins:activate' => "Activar",
+	'admin:plugins:deactivate' => "Desactivar",
+	'admin:plugins:description' => "El tauler us permet controlar i configurar les eines instal·lades al lloc web",
+	'admin:plugins:opt:linktext' => "Configurar les eines..",
+	'admin:plugins:opt:description' => "Configurar les eines instal·lades al lloc web.",
 	'admin:plugins:label:author' => "Autor",
 	'admin:plugins:label:copyright' => "Copyright",
-	'admin:plugins:label:categories' => 'Categories',
-	'admin:plugins:label:licence' => "Llic&egrave;ncia",
+	'admin:plugins:label:categories' => "Categories",
+	'admin:plugins:label:licence' => "Llicència",
 	'admin:plugins:label:website' => "URL",
-	'admin:plugins:label:moreinfo' => 'm&eacute;s informaci&oacute;',
-	'admin:plugins:label:version' => 'Versi&oacute;',
-	'admin:plugins:label:location' => 'Ubicaci&oacute;',
-	'admin:plugins:label:dependencies' => 'Depend&egrave;ncies',
-
-	'admin:plugins:warning:elgg_version_unknown' => 'Aquest plugin utilitza un arxiu de manifest obsolet i no especifica una versi&oacute; d&acute;Elgg compatible. &Eacute;s molt probable que no funcioni!',
-	'admin:plugins:warning:unmet_dependencies' => 'Aquest plugin t&eacute; depend&egrave;ncies desconegudes i no s&acute;activar&agrave;. Consulti les depend&egrave;ncies a baix per ampliar la informaci&oacute;',
-	'admin:plugins:warning:invalid' => '%s no &eacute;s un plugin Elgg v&agrave;lid. Visiti <a href="http://docs.elgg.org/Invalid_Plugin">la Documentaci&oacute; Elgg</a> per obtenir un consell de soluci&oacute; de problemes',
-	'admin:plugins:cannot_activate' => 'no es pot activar',
-
-	'admin:plugins:set_priority:yes' => "Reordenar %s",
-	'admin:plugins:set_priority:no' => "No es pot reordenar %s",
+	'admin:plugins:label:moreinfo' => "més informació",
+	'admin:plugins:label:version' => "Versió",
+	'admin:plugins:label:location' => "Ubicació",
+	'admin:plugins:label:dependencies' => "Dependències",
+	
+	'admin:plugins:warning:elgg_version_unknown' => "L'arxiu de manifest de l'extensió és obsolet i no especifica una versió compatible de l'Elgg. És molt probable que no funcioni!",
+	'admin:plugins:warning:unmet_dependencies' => "L'extensió té dependències desconegudes i no s'activarà. Podeu consultar les dependències a l'apartat de més informació",
+	'admin:plugins:warning:invalid' => "%s no és una extensió vàlida de l'Elgg. Per a solucionar el problema visiteu <a href='http://docs.elgg.org/Invalid_Plugin'>la documentació de l'Elgg</a>",
+	'admin:plugins:cannot_activate' => "no s'ha pogut activar",
+	
+	'admin:plugins:set_priority:yes' => "Tornar a ordenar %s",
+	'admin:plugins:set_priority:no' => "No s'ha pogut tornar a ordenar %s",
 	'admin:plugins:deactivate:yes' => "Desactivar %s",
-	'admin:plugins:deactivate:no' => "No es pot desactivar %s",
-	'admin:plugins:activate:yes' => "Activat%s",
-	'admin:plugins:activate:no' => "No es pot activar %s",
-	'admin:plugins:categories:all' => 'Totes les categories',
-	'admin:plugins:plugin_website' => 'Lloc del plugin',
-	'admin:plugins:author' => '%s',
-	'admin:plugins:version' => 'Versi&oacute; %s',
-	'admin:plugins:simple' => 'Simple',
-	'admin:plugins:advanced' => 'Avan&ccedil;at',
-	'admin:plugin_settings' => 'Configuraci&oacute; del plugin',
-	'admin:plugins:simple_simple_fail' => 'No s&acute;ha pogut desar la configuraci&oacute;',
-	'admin:plugins:simple_simple_success' => 'Configuraci&oacute; desada',
-	'admin:plugins:simple:cannot_activate' => 'No es pot activar el plugin. Verifiqui l&acute;&agrave;rea d&acute;administraci&oacute; avan&ccedil;ada del plugin per obtenir m&eacute;s informaci&oacute;',
-	'admin:plugins:warning:unmet_dependencies_active' => 'El plugin est&agrave; actiu, per&ograve; t&eacute; depend&egrave;ncies desconegudes. Pot ser que hi hagi  problemes amb  el seu funcionament. Vegi "m&eacute;s informaci&oacute;" a baix per ampliar els detalls',
-
-	'admin:plugins:dependencies:type' => 'Tipus',
-	'admin:plugins:dependencies:name' => 'Nom',
-	'admin:plugins:dependencies:expected_value' => 'Valor de test',
-	'admin:plugins:dependencies:local_value' => 'Valor actual',
-	'admin:plugins:dependencies:comment' => 'Comentari',
-
-	'admin:statistics:description' => "Aix&ograve; &eacute;s un resum de les estad&iacute;stiques del lloc. Si necessita estad&iacute;stiques m&eacute;s avan&ccedil;ades, disposa d&acute;una funcionalitat d'adminsitraci&oacute; professional",
-	'admin:statistics:opt:description' => "Veure informaci&oacute; estad&iacute;stica sobre usuaris i objectes en el lloc",
-	'admin:statistics:opt:linktext' => "Veure estad&iacute;stiques..",
-	'admin:statistics:label:basic' => "Estad&iacute;stiques b&agrave;siques del lloc",
-	'admin:statistics:label:numentities' => "Entitats del lloc",
-	'admin:statistics:label:numusers' => "Quantitat d&acute;usuaris",
-	'admin:statistics:label:numonline' => "Quantitat d&acute;usuaris connectats",
-	'admin:statistics:label:onlineusers' => "Usuaris connectats ara mateix",
-	'admin:statistics:label:version' => "Versi&oacute; d&acute;Elgg",
+	'admin:plugins:deactivate:no' => "No s'ha pogut desactivar %s",
+	'admin:plugins:activate:yes' => "S'ha activat %s",
+	'admin:plugins:activate:no' => "No s'ha pogut activar %s",
+	'admin:plugins:categories:all' => "Totes les categories",
+	'admin:plugins:plugin_website' => "Lloc web de l'extensió",
+	'admin:plugins:author' => "%s",
+	'admin:plugins:version' => "Versió %s",
+	'admin:plugins:simple' => "Simple",
+	'admin:plugins:advanced' => "Avançada",
+	'admin:plugin_settings' => "Configuració de l'extensió",
+	'admin:plugins:simple_simple_fail' => "No s'ha pogut desar la configuració",
+	'admin:plugins:simple_simple_success' => "S'ha desat la configuració",
+	'admin:plugins:simple:cannot_activate' => "No s'ha pogut activar l'extensió. Per a més informació verifiqueu-ne l'àrea d'administració avançada.",
+	'admin:plugins:warning:unmet_dependencies_active' => "L'extensió està activada però disposa de dependències desconegudes. Es poden produir erros en el seu funcionament. Per accedir a informació més detallada aneu a l'apartat \"Més informació\"",
+	
+	'admin:plugins:dependencies:type' => "Tipus",
+	'admin:plugins:dependencies:name' => "Nom",
+	'admin:plugins:dependencies:expected_value' => "Valor de Prova",
+	'admin:plugins:dependencies:local_value' => "Valor Actual",
+	'admin:plugins:dependencies:comment' => "Comentari",
+	
+	'admin:statistics:description' => "És un resum de les estadístiques del lloc web. Si necessiteu estadístiques més avançades podeu accedir-hi a través de la funcionalitat d'administració professional",
+	'admin:statistics:opt:description' => "Veure la informació estadística dels usuaris i els objectes del lloc web",
+	'admin:statistics:opt:linktext' => "Veure les estadístiques..",
+	'admin:statistics:label:basic' => "Estadístiques bàsiques del lloc web",
+	'admin:statistics:label:numentities' => "Entitats del lloc web",
+	'admin:statistics:label:numusers' => "Nombre d'usuaris",
+	'admin:statistics:label:numonline' => "Nombre d'usuaris connectats",
+	'admin:statistics:label:onlineusers' => "Usuaris connectats",
+	'admin:statistics:label:version' => "Versió de l'Elgg",
 	'admin:statistics:label:version:release' => "Release",
-	'admin:statistics:label:version:version' => "Versi&oacute;",
-
-	'admin:user:label:search' => "Trobar usuaris:",
+	'admin:statistics:label:version:version' => "Versió",
+	
+	'admin:user:label:search' => "Trobar usuari:",
 	'admin:user:label:searchbutton' => "Cercar",
-
-	'admin:user:ban:no' => "No pot bloquejar aquest  usuari",
-	'admin:user:ban:yes' => "Usuari bloquejat",
-	'admin:user:self:ban:no' => "No es pot bloquejar a vost&egrave; mateix",
-	'admin:user:unban:no' => "No es pot desbloquejar aquest usuari",
-	'admin:user:unban:yes' => "Usuari desbloquejat",
-	'admin:user:delete:no' => "No es pot eliminar aquest usuari",
-	'admin:user:delete:yes' => "L&acute;usuari %s ha estat eliminat",
-	'admin:user:self:delete:no' => "No pot eliminar-se vost&egrave; mateix",
-
-	'admin:user:resetpassword:yes' => "Contrasenya restablerta. Es notificar&agrave; a l&acute;usuari",
-	'admin:user:resetpassword:no' => "No &eacute;s possible restablir la contrasenya",
-
-	'admin:user:makeadmin:yes' => "L&acute;usuari s&acute;ha convertit en administrador",
-	'admin:user:makeadmin:no' => "No s&acute;ha pogut convertir l&acute;usuari en administrador",
-
-	'admin:user:removeadmin:yes' => "L&acute;usuari ja no &eacute;s administrador",
-	'admin:user:removeadmin:no' => "No es poden llevar els privilegis d&acute;administrador a aquest usuari",
-	'admin:user:self:removeadmin:no' => "No es pot llevar els seus privilegis d&acute;administrador",
-
-	'admin:appearance:menu_items' => 'Elements del Men&uacute;',
-	'admin:menu_items:configure' => 'Configurar els elements del men&uacute; principal',
-	'admin:menu_items:description' => 'Seleccioni quins elements del men&uacute; vol mostrar com a enlla&ccedil;os favorits. Els elements no usats es trobaran en l&acute;element "M&eacute;s" al final de la llista',
-	'admin:menu_items:hide_toolbar_entries' => 'Esborrar enlla&ccedil;os del men&uacute; de la barra d&acute;eines?',
-	'admin:menu_items:saved' => 'Elements del men&uacute; guardats',
-	'admin:add_menu_item' => 'Afegir un element del men&uacute; personalizat',
-	'admin:add_menu_item:description' => 'Completi el nom per mostrar i l&acute;adre&ccedil;a URL per afegir un element de men&uacute; personalizat',
-
-	'admin:appearance:default_widgets' => 'Widgets per defecte',
-	'admin:default_widgets:unknown_type' => 'Tipus de widget desconegut',
-	'admin:default_widgets:instructions' => 'Afegir, esborrar, moure i configurar els widgets per defecte a la p&agrave;gina de widget seleccionada'
-		. 'Aquests canvis nom&eacute;s tindran efecte en els nous usuaris',
-
+	
+	'admin:user:ban:no' => "No s'ha pogut bloquejar l'usuari",
+	'admin:user:ban:yes' => "S'ha bloquejat l'usuari",
+	'admin:user:self:ban:no' => "No us podeu desbloquejar",
+	'admin:user:unban:no' => "No s'ha pogut desbloquejar l'usuari",
+	'admin:user:unban:yes' => "S'ha desbloquejat l'usuari",
+	'admin:user:delete:no' => "No s'ha pogut eliminar l'usuari",
+	'admin:user:delete:yes' => "S'ha eliminat l'usuari %s",
+	'admin:user:self:delete:no' => "No us podeu eliminar",
+	
+	'admin:user:resetpassword:yes' => "S'ha pogut tornar a establir la contrasenya. Es notificarà l'usuari",
+	'admin:user:resetpassword:no' => "No s'ha pogut tornar a establir la contrasenya",
+	
+	'admin:user:makeadmin:yes' => "L'usuari és administrador",
+	'admin:user:makeadmin:no' => "No s'ha pogut establir l'usuari com a administrador",
+	
+	'admin:user:removeadmin:yes' => "L'usuari ja no és administrador",
+	'admin:user:removeadmin:no' => "No podeu treure els drets d'administrador a l'usuari",
+	'admin:user:self:removeadmin:no' => "No podeu suprimir els drets d'administrador",
+	
+	'admin:appearance:menu_items' => "Elements del menú",
+	'admin:menu_items:configure' => "Configurar els elements del menú principal",
+	'admin:menu_items:description' => "Seleccioneu els elements del menú que voleu mostrar com a enllaços preferits. Els elements no seleccionats seran accessibles a través de l'element \"Més\" situat al final de la llista",
+	'admin:menu_items:hide_toolbar_entries' => "Voleu treure els enllaços del menú de la barra d'eines ?",
+	'admin:menu_items:saved' => "Elements del menú desats",
+	'admin:add_menu_item' => "Afegir un element del menú personalitzat",
+	'admin:add_menu_item:description' => "Per agregar un element al menú personalitzat introduïu el nom que es visualitzarà i la direcció URL associada",
+	
+	'admin:appearance:default_widgets' => "Enginys predeterminats",
+	'admin:default_widgets:unknown_type' => "El tipus d'enginy és desconegut",
+	'admin:default_widgets:instructions' => "Afegir, treure, noure i configurar els enginys predeterminats a la pàgina d'enginys seleccionada"
+	. " Els canvis només s'aplicaran als nous usuaris",
+	
+	
+	
+	
 /**
  * User settings
  */
-	'usersettings:description' => "El panell de configuraci&oacute; permet parametritzar les seves prefer&egrave;ncies personals, des de l&acute;administraci&oacute; d&acute;usuaris al comportament dels plugins. Seleccioni una opci&oacute; a sota per comen&ccedil;ar",
-
-	'usersettings:statistics' => "Les seves estad&iacute;stiques",
-	'usersettings:statistics:opt:description' => "Veure informaci&oacute; estad&iacute;stica d&acute;usuaris i d&acute;objectes a la xarxa",
-	'usersettings:statistics:opt:linktext' => "Estad&iacute;stiques del compte",
-
-	'usersettings:user' => "Les seves prefer&egrave;ncies",
-	'usersettings:user:opt:description' => "Aix&ograve; li permetr&agrave; establir les seves prefer&egrave;ncies",
-	'usersettings:user:opt:linktext' => "Modificar les seves prefer&egrave;ncies",
-
+	'usersettings:description' => "El tauler de configuració us permet parametritzar les vostres preferències personals, des de l'administració d'usuaris al comportament de les extensions. Per a començar, seleccioneu una opció",
+	
+	'usersettings:statistics' => "Les vostres estadístiques",
+	'usersettings:statistics:opt:description' => "Veure la informació estadística dels usuaris i objectes de la xarxa",
+	'usersettings:statistics:opt:linktext' => "Estadístiques del compte",
+	
+	'usersettings:user' => "Les vostres preferències",
+	'usersettings:user:opt:description' => "Aquesta funcionalitat us permet definir les vostres preferències",
+	'usersettings:user:opt:linktext' => "Modificar les vostres preferències",
+	
 	'usersettings:plugins' => "Eines",
-	'usersettings:plugins:opt:description' => "Prefer&egrave;ncies de configuraci&oacute; per a les seves eines actives",
-	'usersettings:plugins:opt:linktext' => "Configuri les seves eines",
-
-	'usersettings:plugins:description' => "Aquest panell li permetr&agrave; establir les seves prefer&egrave;ncies personals per les eines habilitades per l&acute;administrador del sistema",
-	'usersettings:statistics:label:numentities' => "El seu contingut",
-
-	'usersettings:statistics:yourdetails' => "Els seus detalls",
+	'usersettings:plugins:opt:description' => "Preferències de configuració de les vostres eines actives",
+	'usersettings:plugins:opt:linktext' => "Configureu les vostres eines",
+	
+	'usersettings:plugins:description' => "El tauler us permet definir les preferències personals de les eines habilitades per l'administrador del sistema",
+	'usersettings:statistics:label:numentities' => "El contingut",
+	
+	'usersettings:statistics:yourdetails' => "La vostra informació detallada",
 	'usersettings:statistics:label:name' => "Nom complet",
-	'usersettings:statistics:label:email' => "Correu",
+	'usersettings:statistics:label:email' => "Adreça de correu electrònic",
 	'usersettings:statistics:label:membersince' => "Membre des de",
-	'usersettings:statistics:label:lastlogin' => "&Uacute;ltim acc&eacute;s",
+	'usersettings:statistics:label:lastlogin' => "Últim accés",
+	
+
+
 
 /**
  * Activity river
  */
-	'river:all' => 'Activitat de tota la xarxa',
-	'river:mine' => 'La meva activitat',
-	'river:friends' => 'Activitat de contactes',
-	'river:select' => 'Mostrar %s',
-	'river:comments:more' => '+%u m&eacute;s',
-	'river:generic_comment' => 'comentat a %s %s',
-
-	'friends:widget:description' => "Mostra alguns dels teus contactes",
-	'friends:num_display' => "Quantitat de contactes a mostrar",
-	'friends:icon_size' => "Tamany de la icona",
-	'friends:tiny' => "diminuta",
+  'river:all' => "Activitat de tota la xarxa",
+	'river:mine' => "La meva activitat",
+	'river:friends' => "L'activitat dels meus amics",
+	'river:select' => "Mostrar %s",
+	'river:comments:more' => "+%u més",
+	'river:generic_comment' => "comentat a %s %s",
+	
+	'friends:widget:description' => "Mostra alguns dels vostres amics",
+	'friends:num_display' => "Quantitat d'amics a mostrar",
+	'friends:icon_size' => "Mida de la icona",
+	'friends:tiny' => "molt petita",
 	'friends:small' => "petita",
+	
+
+
 
 /**
  * Generic action words
  */
-	'save' => "Desar",
-	'reset' => 'Reiniciar',
+	'save' => "Guardar",
+	'reset' => "Reiniciar",
 	'publish' => "Publicar",
-	'cancel' => "Cancel&middot;lar",
+	'cancel' => "Cancel·lar",
 	'saving' => "Desant..",
 	'update' => "Actualitzar",
 	'preview' => "Previsualitzar",
 	'edit' => "Editar",
-	'delete' => "Esborrar",
+	'delete' => "Eliminar",
 	'accept' => "Acceptar",
 	'load' => "Carregar",
 	'upload' => "Pujar",
@@ -786,130 +838,153 @@ $catalan = array(
 	'unban' => "Desbloquejar",
 	'banned' => "Bloquejat",
 	'enable' => "Habilitar",
-	'disable' => "Deshabilitar",
-	'request' => "Sol&middot;licitud",
+	'disable' => "Inhabilitar",
+	'request' => "Sol·licitud",
 	'complete' => "Completa",
-	'open' => 'Obrir',
-	'close' => 'Tancar',
+	'open' => "Obrir",
+	'close' => "Tancar",
 	'reply' => "Respondre",
-	'more' => 'M&eacute;s',
-	'comments' => 'Comentaris',
-	'import' => 'Importar',
-	'export' => 'Exportar',
-	'untitled' => 'Sense t&iacute;tol',
-	'help' => 'Ajuda',
-	'send' => 'Enviar',
-	'post' => 'Publicar',
-	'submit' => 'Enviar',
-	'comment' => 'Comentar',
-	'upgrade' => 'Actualitzar',
-	'sort' => 'Ordenar',
-	'filter' => 'Filtrar',
-
-	'site' => 'Lloc',
-	'activity' => 'Activitat',
-	'members' => 'Membres',
-
-	'up' => 'A dalt',
-	'down' => 'A baix',
-	'top' => 'Primer',
-	'bottom' => '&Uacute;ltim',
-
-	'more' => 'm&eacute;s',
-
-	'invite' => "Convidar",
-
-	'resetpassword' => "Restablir contrase&ntilde;a",
-	'makeadmin' => "Fer administrador",
-	'removeadmin' => "Esborrar administrador",
-
-	'option:yes' => "S&iacute;",
+	'more' => "Més",
+	'comments' => "Comentaris",
+	'import' => "Importar",
+	'export' => "Exportar",
+	'untitled' => "Sense Títol",
+	'help' => "Ajuda",
+	'send' => "Enviar",
+	'post' => "Publicar",
+	'submit' => "Enviar",
+	'comment' => "Comentar",
+	'upgrade' => "Actualitzar",
+	'sort' => "Ordenar",
+	'filter' => "Filtrar",
+	
+	'site' => "Lloc web",
+	'activity' => "Activitat",
+	'members' => "Membres",
+	
+	'up' => "Amunt",
+	'down' => "Avall",
+	'top' => "Primer",
+	'bottom' => "Últim",
+	
+	'more' => "més",
+	
+	'invite' => "Convidat",
+	
+	'resetpassword' => "Tornar a establir la contrassenya",
+	'makeadmin' => "Afegir un administrador",
+	'removeadmin' => "Suprimir l'administrador",
+	
+	'option:yes' => "Sí",
 	'option:no' => "No",
-
-	'unknown' => 'Desconegut',
-
-	'active' => 'Actiu',
-	'total' => 'Total',
-
-	'learnmore' => "Clic aqu&iacute; per veure m&eacute;s",
-
+	
+	'unknown' => "Desconegut",
+	
+	'active' => "Actiu",
+	'total' => "Total",
+	
+	'learnmore' => "Premeu per a veure més",
+	
 	'content' => "contingut",
-	'content:latest' => 'activitat recent',
-	'content:latest:blurb' => 'Opcionalment, cliqui aqu&iacute; per veure el contingut m&eacute;s recent de tota la xarxa',
+	'content:latest' => "Última activitat",
+	'content:latest:blurb' => "Premeu alternativament per veure el contingut actualitzat de la xarxa.",
+	
+	'link:text' => "veure l'enllaç",
+	
 
-	'link:text' => 'veure enlla&ccedil;',
+	
 	
 /**
- * Generic questions
- */
-	'question:areyousure' => 'Est&agrave; segur?',
+	* Generic questions
+	*/
+	'question:areyousure' => "N'esteu segur?",
 
+	
+	
+	
 /**
- * Generic data words
- */
-	'title' => "T&iacute;tol",
-	'description' => "Descripci&oacute;",
+	* Generic data words
+	*/
+	'title' => "Títol",
+	'description' => "Descripció",
 	'tags' => "Etiquetes",
 	'spotlight' => "Enfocament",
-	'all' => "Tot",
+	'all' => "Tots",
 	'mine' => "Meu",
-
-	'by' => 'per',
-	'none' => 'res',
-
+	
+	'by' => "per",
+	'none' => "res",
+	
 	'annotations' => "Anotacions",
 	'relationships' => "Relacions",
-	'metadata' => "Metadata",
-	'tagcloud' => "N&uacute;vol d&acute;etiquetes",
-	'tagcloud:allsitetags' => "Etiquetes de tot el lloc",
+	'metadata' => "Metadades",
+	'tagcloud' => "Núvol d'etiquetes",
+	'tagcloud:allsitetags' => "Etiquetes de tot el lloc web",
+	
+	
+
 
 /**
- * Entity actions
- */
-	'edit:this' => 'Editar',
-	'delete:this' => 'Eliminar',
-	'comment:this' => 'Comentar',
+	* Entity actions
+	*/
+	'edit:this' => "Editar",
+	'delete:this' => "Suprimir",
+	'comment:this' => "Comentar",
 
+	
+	
+	
 /**
- * Input / output strings
- */
-	'deleteconfirm' => "Est&agrave; segur d&acute;eliminar aquest element?",
-	'fileexists' => "L&acute;arxiu ja ha estat carregat. Per substituir-lo, seleccioni:",
-
+	* Input / output strings
+	*/
+	'deleteconfirm' => "Segur que voleu suprimir l'element ?",
+	'fileexists' => "S'ha penjat l'arxiu. Per a substituir-lo, seleccioneu:",	
+	
+	
+	
+	
 /**
- * User add
- */
-	'useradd:subject' => 'Compte d&acute;usuari creat',
-	'useradd:body' => '
+	* User add
+	*/
+	'useradd:subject' => "S'ha creat el compte d'usuari",
+	'useradd:body' => "
 %s,
-
-El seu compte d&acute;usuari ha estat creat a %s. Per iniciar la sessi&oacute; visiti:
-
+	
+S'ha creat el vostre compte d'usuari a %s. Per iniciar una sessió visiteu:
+	
 %s
 
-i inici&iuml; sessi&oacute; amb les seg&uuml;ents credencials:
-
-Usuari: %s
-Contrasenya: %s
-
-Un cop identificat, li recomanem que modifiqui la seva contrasenya.
-',
-
+i inicieu la sessió amb les credencials següents:
+	
+Nom d'usuari: %s
+contrasenya: %s
+	
+Us recomanem que modifiqueu la vista contrasenya un cop autenticats.
+",
+	
+	
+	
+	
 /**
- * System messages
- **/
-	'systemmessages:dismiss' => "cliqui per tancar",
+	* System messages
+	**/
+	'systemmessages:dismiss' => "Premeu-lo per tancar",
 
-
+	
+	
+	
 /**
- * Import / export
- */
-	'importsuccess' => "Importaci&oacute; exitosa",
-	'importfail' => "Error en importar dades d&acute;OpenDD",
-
+	* Import / export
+	*/
+	'importsuccess' => "La importació s'ha realitzat correctament",
+	'importfail' => "S'ha produït un error en la importació de dades de l'OpenDD",
+	
+	
+	
+	
 /**
- * Time
- */
+	* Time
+	*/
 	'friendlytime:justnow' => "ara",
 	'friendlytime:minutes' => "fa %s minuts",
 	'friendlytime:minutes:singular' => "fa un minut",
@@ -917,350 +992,388 @@ Un cop identificat, li recomanem que modifiqui la seva contrasenya.
 	'friendlytime:hours:singular' => "fa una hora",
 	'friendlytime:days' => "fa %s dies",
 	'friendlytime:days:singular' => "ahir",
-	'friendlytime:date_format' => 'j F Y @ g:ia',
-
-	'date:month:01' => 'Gener %s',
-	'date:month:02' => 'Febrer %s',
-	'date:month:03' => 'Mar&ccedil; %s',
-	'date:month:04' => 'Abril %s',
-	'date:month:05' => 'Maig %s',
-	'date:month:06' => 'Juny %s',
-	'date:month:07' => 'Juliol %s',
-	'date:month:08' => 'Agost %s',
-	'date:month:09' => 'Setembre %s',
-	'date:month:10' => 'Octubre %s',
-	'date:month:11' => 'Novembre %s',
-	'date:month:12' => 'Desembre %s',
-
+	'friendlytime:date_format' => "j F Y @ g:ia",
+	
+	'date:month:01' => "Gener %s",
+	'date:month:02' => "Febrer %s",
+	'date:month:03' => "Març %s",
+	'date:month:04' => "Abril %s",
+	'date:month:05' => "Maig %s",
+	'date:month:06' => "Juny %s",
+	'date:month:07' => "Juliol %s",
+	'date:month:08' => "Agost %s",
+	'date:month:09' => "Setembre %s",
+	'date:month:10' => "Octubre %s",
+	'date:month:11' => "Novembre %s",
+	'date:month:12' => "Desembre %s",
+	
+	
+	
+	
 /**
- * System settings
- */
-	'installation:sitename' => "El nom del lloc:",
-	'installation:sitedescription' => "Descripci&oacute; curta del lloc (opcional):",
-	'installation:wwwroot' => "URL del lloc:",
-	'installation:path' => "El path complet de la instal&middot;laci&oacute; d&acute;Elgg:",
-	'installation:dataroot' => "El path complet del directori de dades:",
-	'installation:dataroot:warning' => "Ha de crear aquest directori manualment. S&acute;ha de trobar en un directori diferent al de la instal&middot;laci&oacute; d&acute;Elgg",
-	'installation:sitepermissions' => "Permisos d&acute;acc&eacute;s per defecte:",
-	'installation:language' => "Idioma per defecte del lloc:",
-	'installation:debug' => "El mode Debug proveeix informaci&oacute; extra que es pot utilizar per evaluar eventualitats. Pot fer m&eacute;s lent el funcionament del sistema i s&acute;ha d&acute;usar  nom&eacute;s quan es detectin problemes:",
-	'installation:debug:none' => 'Desactivar mode Debug (recomanat)',
-	'installation:debug:error' => 'Mostrar nom&eacute;s errors cr&iacute;tics',
-	'installation:debug:warning' => 'Mostrar nom&eacute;s alertes cr&iacute;tiques',
-	'installation:debug:notice' => 'Mostrar totes les errades, alertes i informacions d&acute;esdeveniments',
-
+	* System settings
+	*/
+	'installation:sitename' => "El nom del lloc web:",
+	'installation:sitedescription' => "Breu descripció del lloc web (opcional):",
+	'installation:wwwroot' => "URL del lloc web:",
+	'installation:path' => "El camí sencer a la instal·lació de l'Elgg:",
+	'installation:dataroot' => "El camí sencer al directori de dades:",
+	'installation:dataroot:warning' => "El directori s'ha de crear manualment. El directori ha d'estar en un directori diferent al de la instal·lació de l'Elgg",
+	'installation:sitepermissions' => "Permisos d'accés predeterminats:",
+	'installation:language' => "Idioma predeterminat:",
+	'installation:debug' => "El mode Depuració ofereix informació extra que es pot utilitzar per avaluar incidències. L'activació del mode pot disminuir la velocitat de funcionament del sistema i només s'ha d'utilitzar quan es detectin problemes:",
+	'installation:debug:none' => "Inhabilitar el mode Depuració (recomanat)",
+	'installation:debug:error' => "Mostrar només els errors crítics",
+	'installation:debug:warning' => "Mostrar només les alertes crítiques",
+	'installation:debug:notice' => "Mostrar tots els errors, alertes i informació d'incidències",
+	
 	// Walled Garden support
-	'installation:registration:description' => 'El registre d&acute;usuaris est&agrave; habilitat per defecte. El pot deshabilitar per impedir que es registrin usuaris nous sense el perm&iacute;s de l&acute;administrador' ,
-	'installation:registration:label' => 'Permetre el registre d&acute;usuaris nous',
-	'installation:walled_garden:description' => 'Habilitar el lloc perqu&egrave; s&acute;executi com una xarxa privada. Aix&ograve; impedir&agrave; a usuaris no registrats visualitzar qualsevol p&agrave;gina del lloc, excepte les establertes com a p&uacute;bliques',
-	'installation:walled_garden:label' => 'Restringir p&agrave;gines a usuaris registrats',
-
-	'installation:httpslogin' => "Habilitar aquesta opci&oacute; perqu&egrave; els usuaris s&acute;identifiquin mitjan&ccedil;ant HTTPS. Necessitar&agrave; habilitar HTTPS tamb&eacute; al servidor perqu&egrave; funcioni",
-	'installation:httpslogin:label' => "Habilitar identificaci&oacute; HTTPS",
-	'installation:view' => "Ingressi la vista que es visualitzar&aacute; per defecte en el lloc o deixi-ho en blanc per la vista per defecte (si hi t&eacute; dubtes, deixi-ho per defecte):",
-
-	'installation:siteemail' => "adre&ccedil;a de correu del lloc (utilizada per enviar correus des del sistema):",
-
-	'installation:disableapi' => "Elgg proveeix una API per al desenvolupament de serveis web de manera que aplicacions remotes puguin interactuar amb el lloc",
-	'installation:disableapi:label' => "Habilitar l&acute;API de serveis web d&acute;Elgg",
-
-	'installation:allow_user_default_access:description' => "Si se selecciona, es permetr&agrave; als usuaris establir el seu nivell d&acute;acc&eacute;s per defecte i pot sobreescriure els nivells d&acute;acc&eacute;s del sistema",
-	'installation:allow_user_default_access:label' => "Permetre l&acute;acc&eacute;s per defecte dels usuaris",
-
-	'installation:simplecache:description' => "La cach&eacute; simple augmenta el rendiment perqu&egrave; emmagatzema contingut est&agrave;tic, com fulls CSS i arxius JavaScript. Habitualment es desitja que aquesta opci&oacute; estigui activada",
-	'installation:simplecache:label' => "Utilitzar cach&eacute; simple (recomanat)",
-
-	'installation:viewpathcache:description' => "La cach&eacute; de paths de vistes redueix els temps de c&agrave;rrega de plugins perqu&egrave; emmagatzema la ubicaci&oacute; dels seus arxius",
-	'installation:viewpathcache:label' => "Utilitzar cach&eacute; de paths de vistes (recomanat)",
-
-	'upgrading' => 'Actualizant..',
-	'upgrade:db' => 'S&acute;ha actualitzat la base de dades',
-	'upgrade:core' => 'S&acute;ha actualitzat la instal&middot;laci&oacute; d&acute;Elgg',
-	'upgrade:unable_to_upgrade' => 'No &eacute;s possible actualizar',
+	'installation:registration:description' => "El registre està activitat per defecte. Podeu desactivar l'opció per evitar que els usuaris es puguin registrar",
+	'installation:registration:label' => "Habilitar el registre de nous usuaris",
+	'installation:walled_garden:description' => "Habilitar l'execució del lloc web en una xarxa privada. L'opció impedeix la visualització de qualsevol pàgina no pública als usuaris no registrats",
+	'installation:walled_garden:label' => "Restringir l'accés a les pàgines a usuaris registrats",
+	
+	'installation:httpslogin' => "Habiliteu l'opció per forçar l'autenticació HTTPS. Perquè funcioni també caldrà que habiliteu l'autenticació HTTPS al servidor",
+	'installation:httpslogin:label' => "Habilitar l'autenticació HTTPS",
+	'installation:view' => "Introduïu la vista predeterminada del lloc web o deixeu-ho en blanc per utilitzar la vista predeterminada (en cas de dubte deixeu la predeterminada):",
+	
+	'installation:siteemail' => "Adreça de correu electrònic del lloc web (s'utilitza per enviar correus electrònics del sistema):",
+	
+	'installation:disableapi' => "L'Elgg disposa d'una API per al desenvolupament de serveis web que permet que aplicacions remotes puguin interactuar amb el lloc web",
+	'installation:disableapi:label' => "Habilitar la API de serveis web de l'Elgg",
+	
+	'installation:allow_user_default_access:description' => "Permet que els usuaris puguin establir el seu propi nivell d'accés predeterminat. Permet sobreescriure els nivell d'accés del sistema",
+	'installation:allow_user_default_access:label' => "Habilitar l'accés predeterminat dels usuaris",
+	
+	'installation:simplecache:description' => "La memòria cau simple augmenta el rendiment en l'emmagatzematge de contingut estàtic com poden ser fulls  CSS i arxius JavaScript. En la majoria dels casos la funció està activada",
+	'installation:simplecache:label' => "Utilitzar la memòria cau simple (recomanat)",
+	
+	'installation:viewpathcache:description' => "La memòria cau de camins de les vistes redueix els temps de càrrega de les extensions guardant la ubicació dels arxius",
+	'installation:viewpathcache:label' => "Utilitzar la memòria cau de camins de les vistes (recomanat)",
+	
+	'upgrading' => "S'està actualitzant..",
+	'upgrade:db' => "S'ha actualitzat la base de dades",
+	'upgrade:core' => "S'ha actualitzat la instal·lació de l'Elgg",
+	'upgrade:unable_to_upgrade' => "No s'ha pogut actualitzar",
 	'upgrade:unable_to_upgrade_info' =>
-'No es pot actualizar perqu&egrave; s&acute;han detectat vistes antigues en el directori de vistes del nucli d&acute;Elgg. Aquestes vistes han quedat obsoletes i s&acute;han d&acute;esborrar perqu&egrave; Elgg funcioni correctament. Si no ha fet canvis al nucli d&acute;Elgg, elimini nom&eacute;s el directori de vistes (views) i substitueixi&acute;l amb  l&acute;&uacute;ltim paquet d&acute;instal&middot;laci&oacute; descarregat d&acute;<a href="http://elgg.org">elgg.org</a>.<br />
-		<br />
-
-		Si necessita instruccions detallades, visiti la <a href="http://docs.elgg.org/wiki/Upgrading_Elgg">
-		Documentaci&oacute; d&acute;actualizaci&oacute; d&acute;Elgg</a>. Si necessita assist&egrave;ncia, si us plau vagi als <a href="http://community.elgg.org/pg/groups/discussion/">F&ograve;rums de Suport de la Comunitat</a>',
-
-	'update:twitter_api:deactivated' => 'L&acute;API de Twitter (abans Twitter Service) s&acute;ha desactivat durant l&acute;actualizaci&oacute;. Si us plau, activi-la manualment si cal',
-	'update:oauth_api:deactivated' => 'L&acute;API OAuth (abans OAuth Lib) s&acute;ha desactivat durant l&acute;actualitaci&oacute;. Si us plau, activi-la manualment si cal',
-
-	'deprecated:function' => '%s() ha quedat obsoleta per %s()',
-
+	"La instal·lació no es pot actualitzar perquè s'han detectat vistes velles al directori de vistes
+	del nucli de l'Elgg. Aquestes vistes estan obsoletes i s'han de suprimir per assegurar que l'Elgg funciona
+	correctament. Si no heu realitzat modificacions de l'Elgg podeu suprimir el directori de vistes i
+	reemplaçar-lo amb l'últim del paquet d'instal·lació de l'Elgg disponible a <a href='http://elgg.org'>elgg.org</a>.<br /><br />
+	
+	
+	Si necessiteu instruccions detallades visiteu la <a href='http://docs.elgg.org/wiki/Upgrading_Elgg'>
+	Documentació d'actualització de l'Elgg</a>. Si necessiteu ajuda visiteu els
+	<a href='http://community.elgg.org/pg/groups/discussion/'>Fòrums de suport a la comunitat</a>",
+		
+	'update:twitter_api:deactivated' => "Durant l'actualització s'ha desactivat l'API de Twitter (anteriorment Twitter Service). Si la voleu utilitzar activeu-la manualment",
+	'update:oauth_api:deactivated' => "Durant l'actualització s'ha desactivat l'API OAuth (anteriorment OAuth Lib). Si la voleu utilitzar activeu-la manualment",
+	
+	'deprecated:function' => "%s() ha quedat obsoleta per %s()",
+	
+	
+	
+	
 /**
- * Welcome
- */
-	'welcome' => "Benvinguda o benvingut",
-	'welcome:user' => 'Benvinguda o benvingut %s',
-
+	* Welcome
+	*/
+	'welcome' => "Benvingut/da",
+	'welcome:user' => "Benvingut/da %s",
+	
+	
+	
+	
 /**
- * Emails
- */
-	'email:settings' => "Configuraci&oacute; de correu",
-	'email:address:label' => "adre&ccedil;a de correu",
-
-	'email:save:success' => "Nova adre&ccedil;a de correu desada, s&acute;ha sol&middot;licitat la verificaci&oacute;",
-	'email:save:fail' => "No s&acute;ha pogut desar la nova adre&ccedil;a de correu",
-
-	'friend:newfriend:subject' => "%s t&acute;ha fet un dels seus contactes!",
-	'friend:newfriend:body' => "%s t&acute;ha fet un dels seus contactes!
-
-Per veure el seu perfil, cliqui aqu&iacute;:
-
+	* Emails
+	*/
+	'email:settings' => "Configuració del correu electrònic",
+	'email:address:label' => "Adreça del correu electrònic",
+	
+	'email:save:success' => "S'ha desat la nova adreça de correu electrònic. S'ha sol·licitat la seva verificació",
+	'email:save:fail' => "No s'ha pogut desar la nova adreça de correu electrònic",
+	
+	'friend:newfriend:subject' => "%s t'ha afegit a la seva llista de contactes!",
+	'friend:newfriend:body' => "%s t'ha afegit a la seva llista de contactes!
+	
+	Per visualitzar el seu perfil premeu:
+	
 %s
 
-Si us plau, no respongui aquest correu",
-
-
-
-	'email:resetpassword:subject' => "Contrasenya restablerta!",
+Siusplau, no respongueu a aquest correu electrònic",
+	
+	
+	
+	'email:resetpassword:subject' => "S'ha restablert la contrasenya!",
 	'email:resetpassword:body' => "Hola %s,
-
-la seva contrasenya ha estat restablerta a: %s",
-
-
-	'email:resetreq:subject' => "Sol&middot;licitud de nova contrasenya",
+	
+S'ha restablert la vostra contrasenya: %s",
+	
+	
+	'email:resetreq:subject' => "Sol·licitud de nova contrasenya",
 	'email:resetreq:body' => "Hola %s,
 
-Alg&uacute; (de la direcci&oacute; IP %s) ha sol&middot;licitat una nova contrasenya pel seu compte.
-
-Si ha estat vost&egrave; qui ha realitzat la petici&oacute;, faci clic a l&acute;enlla&ccedil; de sota. Si no &eacute;s aix&iacute;, ignori aquest correu.
-
+Algú (des de l'adreça IP %s) ha sol·licitat una nova contrasenya pel vostre compte.
+	
+Si heu fet la sol·licitud premeu l'enllaç de sota. En cas contrari, ignoreu aquest correu electrònic.
+	
 %s
 ",
-
+	
+	
+	
+	
 /**
- * user default access
- */
-'default_access:settings' => "El seu nivell d&acute;acc&eacute;s per defecte",
-'default_access:label' => "Acc&eacute;s per defecte",
-'user:default_access:success' => "El nivell d&acute;acc&eacute;s per defecte ha estat desat",
-'user:default_access:failure' => "El nivell d&acute;acc&eacute;s per defecte no s&acute;ha pogut desar",
-
+	* user default access
+	*/
+	'default_access:settings' => "El vostre nivell d'accés predeterminat",
+	'default_access:label' => "Nivell d'accés predeterminat",
+	'user:default_access:success' => "S'ha desat el nivell d'accés predeterminat",
+	'user:default_access:failure' => "No s'ha pogut desar el nivell d'accés predeterminat",
+	
+	
+	
+	
 /**
- * XML-RPC
- */
-	'xmlrpc:noinputdata'	=>	"Falten dades",
-
+	* XML-RPC
+	*/
+	'xmlrpc:noinputdata' => "Dades pendents",
+	
+	
+	
+	
 /**
- * Comments
- */
+	* Comments
+	*/
 	'comments:count' => "%s comentaris",
-
-	'riveraction:annotation:generic_comment' => '%s va comentar a %s',
-
+	
+	'riveraction:annotation:generic_comment' => "%s ha comentat a %s",
+	
 	'generic_comments:add' => "Comentar",
 	'generic_comments:post' => "Publicar un comentari",
 	'generic_comments:text' => "Comentar",
-	'generic_comments:latest' => "comentaris m&eacute;s recents",
-	'generic_comment:posted' => "S&acute;ha publicat el seu  comentari",
-	'generic_comment:deleted' => "S&acute;ha esborrat el seu comentari",
-	'generic_comment:blank' => "Ens sap greu, ha d&acute;ingressar algun comentari abans de poder desar-lo",
-	'generic_comment:notfound' => "Ens sap greu, no s&acute;ha pogut trobar l&acute;element que cercava",
-	'generic_comment:notdeleted' => "Ens sap greu,  no s&acute;ha pogut eliminar el comentari",
-	'generic_comment:failure' => "Hi ha hagut una errada inesperada en intentar afegir el seu comentari. Si us plau, torni-ho a intentar",
-	'generic_comment:none' => 'Sense comentaris',
-
-	'generic_comment:email:subject' => 'Tens un comentari nou!',
-	'generic_comment:email:body' => "Tens un comentari nou en aquest element \"%s\" de %s. Dice:
-
-
+	'generic_comments:latest' => "Últims comentaris",
+	'generic_comment:posted' => "S'ha publicat el vostre comentari",
+	'generic_comment:deleted' => "S'ha suprimit el vostre comentari",
+	'generic_comment:blank' => "Heu d'introduir un comentari abans de poder desar-lo",
+	'generic_comment:notfound' => "No s'ha pogut trobar l'element indicat",
+	'generic_comment:notdeleted' => "No s'ha pogut suprimir el comentari",
+	'generic_comment:failure' => "S'ha produït un error a l'intentar afegir el vostre comentari. Torneu-ho a intentar",
+	'generic_comment:none' => "Sense comentaris",
+	
+	'generic_comment:email:subject' => "Teniu un comentari nou!",
+	'generic_comment:email:body' => "Teniu un comentari nou a \"%s\" de %s. Diu:
+	
+	
 %s
-
-
-Per respondre o veure l&acute;element original, faci clic aqu&iacute;:
-
+	
+	
+Per respondre o veure l'original, premeu:
+	
 %s
-
-Per veure el perfil de %s, faci clic aqu&iacute;:
-
+	
+Per veure el perfil de %s, premeu:
+	
 %s
-
-Si us plau, no respongui a aquest correu",
-
+	
+Siusplau, no respongueu a aquest correu",
+	
+	
+	
+	
 /**
- * Entities
- */
-	'byline' => 'Per %s',
-	'entity:default:strapline' => 'Creat %s per %s',
-	'entity:default:missingsupport:popup' => 'Aquesta entitat no es pot mostrar correctament. Aix&ograve; pot ser perqu&egrave; el suport del plugin ja no es troba instal&middot;lat',
-
-	'entity:delete:success' => 'L&acute;entitat %s ha estat eliminada',
-	'entity:delete:fail' => 'L&acute;entitat %s no ha pogut ser eliminada',
-
+	* Entities
+	*/
+	'byline' => "Per %s",
+	'entity:default:strapline' => "Creat %s per %s",
+	'entity:default:missingsupport:popup' => "L'entitat no s'ha pogut mostrar correctament. Es pot deure a que el suport que ofereix una extensió ja no estigui instal·lat al sistema",
+	
+	'entity:delete:success' => "S'ha suprimit l'entitat %s",
+	'entity:delete:fail' => "No s'ha pogut suprimir l'entitat %s",
+	
+	
+	
+	
 /**
- * Action gatekeeper
- */
-	'actiongatekeeper:missingfields' => 'Al formulari, falten __token o camps __ts',
-	'actiongatekeeper:tokeninvalid' => "S&acute;ha trobat una errada (no coincid&egrave;ncia de token). Aix&ograve; probablement indiqui que la p&agrave;gina que estava utilitzant ja ha caducat. Si us plau, torni-ho a intentar",
-	'actiongatekeeper:timeerror' => 'La p&agrave;gina que estava utilitzant ha caducat. Si us plau, recarregui-la i torni-ho a intentar',
-	'actiongatekeeper:pluginprevents' => 'Una extensi&oacute; d&acute;aquest formulari ha evitat que s&acute;envi&iuml; el formulari',
-
+	* Action gatekeeper
+	*/
+	'actiongatekeeper:missingfields' => "Falten camps _token o camps _ts",
+	'actiongatekeeper:tokeninvalid' => "S'ha trobat un error (el token no coincideix). Probablement es degui al venciment de la pàgina. Torneu-ho a intentar",
+	'actiongatekeeper:timeerror' => "La pàgina que estàveu utilitzant ha vençut. Actualitzeu-la i torneu-ho a intentar",
+	'actiongatekeeper:pluginprevents' => "El formulari no s'ha enviat perquè una extensió no ho ha autoritzat",
+	
+	
+	
+	
 /**
- * Word blacklists
- */
-	'word:blacklist' => 'and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever',
-
+	* Word blacklists
+	*/
+	'word:blacklist' => "and, the, then, but, she, his, her, him, one, not, also, about, now, hence, however, still, likewise, otherwise, therefore, conversely, rather, consequently, furthermore, nevertheless, instead, meanwhile, accordingly, this, seems, what, whom, whose, whoever, whomever",
+	
+	
+	
+	
 /**
- * Tag labels
- */
-	'tag_names:tags' => 'Etiquetes',
-	'tags:site_cloud' => 'N&uacute;vol d&acute;etiquetes del lloc',
-
+	* Tag labels
+	*/
+	'tag_names:tags' => "Etiquetes",
+	'tags:site_cloud' => "Núvol d'etiquetes del lloc web",
+	
+	
+	
+	
 /**
- * Javascript
- */
-	'js:security:token_refresh_failed' => 'No s&acute;ha pogut contactar amb %s. Pot experimentar problemes a l&acute;hora de desar continguts en el lloc',
-	'js:security:token_refreshed' => 'La connexi&oacute; a %s ha estat restaurada!',
+	* Javascript
+	*/
+	'js:security:token_refresh_failed' => "No s'ha pogut restaurar la connexió amb %s. Es poden produir problemes al desar continguts al lloc web",
+	'js:security:token_refreshed' => "S'ha restaurat la connexió amb %s!",	
+	
+	
+	
 
 /**
  * Languages according to ISO 639-1
  */
-	"aa" => "Afar",
-	"ab" => "Abkhazian",
-	"af" => "Afrikaans",
-	"am" => "Amharic",
-	"ar" => "Arabic",
-	"as" => "Assamese",
-	"ay" => "Aymara",
-	"az" => "Azerbaijani",
-	"ba" => "Bashkir",
-	"be" => "Byelorussian",
-	"bg" => "Bulgarian",
-	"bh" => "Bihari",
-	"bi" => "Bislama",
-	"bn" => "Bengali; Bangla",
-	"bo" => "Tibetan",
-	"br" => "Breton",
-	"ca" => "Catalan",
-	"co" => "Corsican",
-	"cs" => "Czech",
-	"cy" => "Welsh",
-	"da" => "Danish",
-	"de" => "German",
-	"dz" => "Bhutani",
-	"el" => "Greek",
-	"en" => "English",
-	"eo" => "Esperanto",
-	"es" => "Espa&ntilde;ol",
-	"et" => "Estonian",
-	"eu" => "Basque",
-	"fa" => "Persian",
-	"fi" => "Finnish",
-	"fj" => "Fiji",
-	"fo" => "Faeroese",
-	"fr" => "French",
-	"fy" => "Frisian",
-	"ga" => "Irish",
-	"gd" => "Scots / Gaelic",
-	"gl" => "Galician",
-	"gn" => "Guarani",
-	"gu" => "Gujarati",
-	"he" => "Hebrew",
-	"ha" => "Hausa",
-	"hi" => "Hindi",
-	"hr" => "Croatian",
-	"hu" => "Hungarian",
-	"hy" => "Armenian",
-	"ia" => "Interlingua",
-	"id" => "Indonesian",
-	"ie" => "Interlingue",
-	"ik" => "Inupiak",
-	//"in" => "Indonesian",
-	"is" => "Icelandic",
-	"it" => "Italian",
-	"iu" => "Inuktitut",
-	"iw" => "Hebrew (obsolete)",
-	"ja" => "Japanese",
-	"ji" => "Yiddish (obsolete)",
-	"jw" => "Javanese",
-	"ka" => "Georgian",
-	"kk" => "Kazakh",
-	"kl" => "Greenlandic",
-	"km" => "Cambodian",
-	"kn" => "Kannada",
-	"ko" => "Korean",
-	"ks" => "Kashmiri",
-	"ku" => "Kurdish",
-	"ky" => "Kirghiz",
-	"la" => "Latin",
-	"ln" => "Lingala",
-	"lo" => "Laothian",
-	"lt" => "Lithuanian",
-	"lv" => "Latvian/Lettish",
-	"mg" => "Malagasy",
-	"mi" => "Maori",
-	"mk" => "Macedonian",
-	"ml" => "Malayalam",
-	"mn" => "Mongolian",
-	"mo" => "Moldavian",
-	"mr" => "Marathi",
-	"ms" => "Malay",
-	"mt" => "Maltese",
-	"my" => "Burmese",
-	"na" => "Nauru",
-	"ne" => "Nepali",
-	"nl" => "Dutch",
-	"no" => "Norwegian",
-	"oc" => "Occitan",
-	"om" => "(Afan) Oromo",
-	"or" => "Oriya",
-	"pa" => "Punjabi",
-	"pl" => "Polish",
-	"ps" => "Pashto / Pushto",
-	"pt" => "Portuguese",
-	"qu" => "Quechua",
-	"rm" => "Rhaeto-Romance",
-	"rn" => "Kirundi",
-	"ro" => "Romanian",
-	"ru" => "Russian",
-	"rw" => "Kinyarwanda",
-	"sa" => "Sanskrit",
-	"sd" => "Sindhi",
-	"sg" => "Sangro",
-	"sh" => "Serbo-Croatian",
-	"si" => "Singhalese",
-	"sk" => "Slovak",
-	"sl" => "Slovenian",
-	"sm" => "Samoan",
-	"sn" => "Shona",
-	"so" => "Somali",
-	"sq" => "Albanian",
-	"sr" => "Serbian",
-	"ss" => "Siswati",
-	"st" => "Sesotho",
-	"su" => "Sundanese",
-	"sv" => "Swedish",
-	"sw" => "Swahili",
-	"ta" => "Tamil",
-	"te" => "Tegulu",
-	"tg" => "Tajik",
-	"th" => "Thai",
-	"ti" => "Tigrinya",
-	"tk" => "Turkmen",
-	"tl" => "Tagalog",
-	"tn" => "Setswana",
-	"to" => "Tonga",
-	"tr" => "Turkish",
-	"ts" => "Tsonga",
-	"tt" => "Tatar",
-	"tw" => "Twi",
-	"ug" => "Uigur",
-	"uk" => "Ukrainian",
-	"ur" => "Urdu",
-	"uz" => "Uzbek",
-	"vi" => "Vietnamese",
-	"vo" => "Volapuk",
-	"wo" => "Wolof",
-	"xh" => "Xhosa",
-	//"y" => "Yiddish",
-	"yi" => "Yiddish",
-	"yo" => "Yoruba",
-	"za" => "Zuang",
-	"zh" => "Chinese",
-	"zu" => "Zulu",
-);
+	 'aa'  =>  "Afar" , 
+	 'ab'  =>  "Abkhazià" , 
+	 'af'  =>  "Afrikaans" , 
+	 'am'  =>  "Amharic" , 
+	 'ar'  =>  "Aràbic" , 
+	 'as'  =>  "Assamese" , 
+	 'ay'  =>  "Aymara" , 
+	 'az'  =>  "Azerbaijani" , 
+	 'ba'  =>  "Bashkir" , 
+	 'be'  =>  "Bielorus" , 
+	 'bg'  =>  "Búlgar" , 
+	 'bh'  =>  "bihari" , 
+	 'bi'  =>  "Bislama" , 
+	 'bn'  =>  "Bengali;Bangla" , 
+	 'bo'  =>  "Tibetà" , 
+	 'br'  =>  "Bretó" , 
+	 'ca'  =>  "Català" , 
+	 'co'  =>  "Corsa" , 
+	 'cs'  =>  "Xec" , 
+	 'cy'  =>  "Galés" , 
+	 'da'  =>  "Danès" , 
+	 'de'  =>  "Alemà" , 
+	 'dz'  =>  "Bhutani" , 
+	 'el'  =>  "Grec" , 
+	 'en'  =>  "Anglès" , 
+	 'eo'  =>  "Esperanto" , 
+	 'es'  =>  "Castellà" , 
+	 'et'  =>  "Estonià" , 
+	 'eu'  =>  "Eusquera" , 
+	 'fa'  =>  "Persa" , 
+	 'fi'  =>  "Finlandès" , 
+	 'fj'  =>  "Fiji" , 
+	 'fo'  =>  "Faeroese" , 
+	 'fr'  =>  "Francès" , 
+	 'fy'  =>  "Frisio" , 
+	 'ga'  =>  "Irlandès" , 
+	 'gd'  =>  "Gaèlic" , 
+	 'gl'  =>  "Gallec" , 
+	 'gn'  =>  "Guaraní" , 
+	 'gu'  =>  "Gujarati" , 
+	 'he'  =>  "Hebreu" , 
+	 'ha'  =>  "Haussa" , 
+	 'hi'  =>  "Hindú" , 
+	 'hr'  =>  "Croat" , 
+	 'hu'  =>  "Hongarès" , 
+	 'hy'  =>  "Armeni" , 
+	 'ia'  =>  "Interllenguatge" , 
+	 'id'  =>  "Indonesi" , 
+	 'ie'  =>  "Interllenguatge" , 
+	 'ik'  =>  "Inupiak" , 
+	 'is'  =>  "Islandès" , 
+	 'it'  =>  "Italià" , 
+	 'iu'  =>  "Inuktitut" , 
+	 'iw'  =>  "Hebreu antic" , 
+	 'ja'  =>  "Japonès" , 
+	 'ji'  =>  "Yiddish" , 
+	 'jw'  =>  "Javanès" , 
+	 'ka'  =>  "Georgià" , 
+	 'kk'  =>  "Kazakh" , 
+	 'kl'  =>  "Groenlandia" , 
+	 'km'  =>  "Cambotjà" , 
+	 'kn'  =>  "Canadenc" , 
+	 'ko'  =>  "Coreà" , 
+	 'ks'  =>  "Kashmiri" , 
+	 'ku'  =>  "Kurd" , 
+	 'ky'  =>  "Kirghiz" , 
+	 'la'  =>  "Llatí" , 
+	 'ln'  =>  "Lingala" , 
+	 'lo'  =>  "Laotán" , 
+	 'lt'  =>  "Lituà" , 
+	 'lv'  =>  "Letó" , 
+	 'mg'  =>  "Magaix" , 
+	 'mi'  =>  "Maorí" , 
+	 'mk'  =>  "Macedoni" , 
+	 'ml'  =>  "Mayalam" ,
+	 'mn'  =>  "Mongol" ,
+	 'mo'  =>  "Moldà" ,
+	 'mr'  =>  "Marathi" ,
+	 'ms'  =>  "Malay" ,
+	 'mt'  =>  "Maltes" ,
+	 'my'  =>  "Burmes" ,
+	 'na'  =>  "Nauru" ,
+	 'ne'  =>  "Nepalí" ,
+	 'nl'  =>  "Holandès" ,
+	 'no'  =>  "Noruec" ,
+	 'oc'  =>  "Occità" ,
+	 'om'  =>  "(Afan) Orom" ,
+	 'or'  =>  "Oriyà" ,
+	 'pa'  =>  "Punjabi" ,
+	 'pl'  =>  "Polac" ,
+	 'ps'  =>  "Pashto / Pushto" ,
+	 'pt'  =>  "Portuguès" ,
+	 'qu'  =>  "Quechua" ,
+	 'rm'  =>  "Rhaeto-Romance" ,
+	 'rn'  =>  "Kirundi" ,
+	 'ro'  =>  "Rumà" ,
+	 'ru'  =>  "Rus" ,
+	 'rw'  =>  "Kinyarwanda" ,
+	 'sa'  =>  "Sanskrit" ,
+	 'sd'  =>  "Sindhi" ,
+	 'sg'  =>  "Sangro" ,
+	 'sh'  =>  "Serb-croata" ,
+	 'si'  =>  "Singalès" ,
+	 'sk'  =>  "Slovak" ,
+	 'sl'  =>  "Sloveno" ,
+	 'sm'  =>  "Samoan" ,
+	 'sn'  =>  "Shona" ,
+	 'so'  =>  "Somalí" ,
+	 'sq'  =>  "Albanès" ,
+	 'sr'  =>  "Serbi" ,
+	 'ss'  =>  "Siswati" ,
+	 'st'  =>  "Sesotho" ,
+	 'su'  =>  "Sondanès" ,
+	 'sv'  =>  "Suec" ,
+	 'sw'  =>  "Swahili" ,
+	 'ta'  =>  "Tamil" ,
+	 'te'  =>  "Tegulu" ,
+	 'tg'  =>  "Tajik" ,
+	 'th'  =>  "Thai" ,
+	 'ti'  =>  "Tigrinyà" ,
+	 'tk'  =>  "Turc" ,
+	 'tl'  =>  "Tagalog" ,
+	 'tn'  =>  "Sestswana" ,
+	 'to'  =>  "Tonga" ,
+	 'tr'  =>  "Turc" ,
+	 'ts'  =>  "Tsonga" ,
+	 'tt'  =>  "Tatar" ,
+	 'tw'  =>  "Twi" ,
+	 'ug'  =>  "Uigur" ,
+	 'uk'  =>  "Ucranià" ,
+	 'ur'  =>  "Urdú" ,
+	 'uz'  =>  "Uzbek" ,
+	 'vi'  =>  "Vietnamita" ,
+	 'vo'  =>  "Volapuk" ,
+	 'wo'  =>  "Wolof" ,
+	 'xh'  =>  "Xhosa" ,
+	 'yi'  =>  "Yiddisha" ,
+	 'yo'  =>  "Yoruba" ,
+	 'za'  =>  "Zuang" ,
+	 'zh'  =>  "Xinès" ,
+	 'zu'  =>  "Zulu"
+); 
 
-add_translation("ca",$catalan);
+add_translation('ca', $catalan);
