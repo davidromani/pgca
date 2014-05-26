@@ -22,22 +22,22 @@
 ?>
 
 .elgg-walledgarden-double > .elgg-head {
-	background: none;
-	height: 0;
+	background: none !important;
+	height: 0 !important;
 }
 .elgg-walledgarden-double > .elgg-body {
-	background: none;
+background: none !important;
 }
 .elgg-walledgarden-double > .elgg-foot {
-	background: none;
+background: none !important;
 }
 .elgg-walledgarden-single > .elgg-head {
-	background: none;
+background: none !important;
 }
 .elgg-walledgarden-single > .elgg-body {
-	background: none;
+background: none !important;
 }
 .elgg-walledgarden-single > .elgg-foot {
-	background: none;
-	height: 0;
+background: none !important;
+height: 0 !important;
 }

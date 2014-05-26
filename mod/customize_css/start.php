@@ -19,7 +19,7 @@ function customize_css_init() {
     // plugins are loaded top-to-bottom
     // so if you want to force your css to be the last thing included (to override everything else)
     // you should set the priority to 1000 and move this plugin to the very bottom of the list
-    $priority = 1;
+    $priority = 10000;
 
 	// Extend system CSS with our own styles
 	// this function is extending the view called "css/elgg" with our own custom view
