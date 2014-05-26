@@ -3,15 +3,15 @@
 // Generado por translationbrowser 
 
 $catalan = array( 
-	 'members:label:newest'  =>  "Noves" , 
+	 'members:label:newest'  =>  "Nous" , 
 	 'members:label:popular'  =>  "Populars" , 
-	 'members:members'  =>  "Persones enregistrades a la xarxa social" , 
+	 'members:members'  =>  "Persones registrades a la xarxa" , 
 	 'members:online'  =>  "Persones online" , 
-	 'members:active'  =>  "Persones enregistrades" , 
-	 'members:searchtag'  =>  "Cercar persones per etiquetes" , 
-	 'members:searchname'  =>  "Cercar persones membres per nom" , 
+	 'members:active'  =>  "Persones registrades" , 
+	 'members:searchtag'  =>  "Cercar persones per etiqueta" , 
+	 'members:searchname'  =>  "Cercar persones per nom" , 
 	 'members:label:active'  =>  "Conectades" , 
-	 'members:search:name'  =>  "Noms de persona usuària" , 
+	 'members:search:name'  =>  "Noms d'usuaris" , 
 	 'members:search:tags'  =>  "Etiquetes"
 ); 
 
