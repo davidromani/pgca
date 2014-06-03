@@ -42,7 +42,12 @@ $catalan = array(
 	 'thewire:friends:title'  =>  "%s's amistats connectades" , 
 	 'thewire:twitterservice:desc'  =>  "Tots els tweets fets en connexió" , 
 	 'thewire:yours'  =>  "Els teus tweets" , 
-	 'thewire:theirs'  =>  "%s's tweets"
+	 'thewire:theirs'  =>  "%s's tweets",
+
+    /**
+     * The wire river
+     */
+     'river:create:object:thewire' => "%s ha publicat un tweet a la xarxa",
 ); 
 
 add_translation('ca', $catalan); 
