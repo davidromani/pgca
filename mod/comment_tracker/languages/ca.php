@@ -25,7 +25,7 @@
 		'comment:subscribe' => 'Subscriure',
 		'comment:unsubscribe' => 'Cancel·lar la subscripció',
         'comment:subscribe:long' => 'Subscriure\'s a les notificacions de comentaris',
-		'comment:unsubscribe:long' => 'Unsubscribe from comment notifications',
+		'comment:unsubscribe:long' => 'Eliminar la subscripció a les notificacions de comentaris',
         'comment_tracker:setting:autosubscribe' => "Auto-subscribe to content you comment on?",
 		'show:subscribers' => 'Show Subscribers',
 		'comment:subscribe:success' => 'You have successfully subscribed to this post or topic.',
