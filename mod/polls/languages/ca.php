@@ -13,14 +13,14 @@
 			'polls:user' => "Enquesta de %s",
 			'polls:group_polls' => "Enquestes del grup",
 			'polls:group_polls:listing:title' => "Enquestes de %s",
-			'polls:user:friends' => "%s's friends' poll",
+			'polls:user:friends' => "Enquesta %s dels amics",
 			'polls:your' => "Les teves enquestes",
-			'polls:not_me' => "%s's polls",
-			'polls:posttitle' => "%s's polls: %s",
-			'polls:friends' => "Friends' polls",
-			'polls:not_me_friends' => "%s's friend's polls",
-			'polls:yourfriends' => "Your friends' latest polls",
-			'polls:everyone' => "All site polls",
+			'polls:not_me' => "Enquestes de %s",
+			'polls:posttitle' => "enquesta %s: %s",
+			'polls:friends' => "Enquestes dels amics",
+			'polls:not_me_friends' => "Enquesta %s dels amics",
+			'polls:yourfriends' => "Últimes enquestes dels teus amics",
+			'polls:everyone' => "Totes les enquestes",
 			'polls:read' => "Llegir enquesta",
 			'polls:addpost' => "Crear una enquesta",
 			'polls:editpost' => "Editar enquesta: %s",
@@ -34,96 +34,96 @@
 			'polls:results' => "[+] Mostra els resultats",
 			'polls:show_results' => "Mostra els resultats",
 			'polls:show_poll' => "Mostra enquesta",
-			'polls:add_choice' => "Afegir una opció de respostae",
-			'polls:delete_choice' => "Delete this choice",
+			'polls:add_choice' => "Afegir una opció de resposta",
+			'polls:delete_choice' => "Esborrar opció",
 			'polls:settings:group:title' => "Group polls",
-			'polls:settings:group_polls_default' => "yes, on by default",
-			'polls:settings:group_polls_not_default' => "yes, off by default",
+			'polls:settings:group_polls_default' => "sí, activat per defecte",
+			'polls:settings:group_polls_not_default' => "no, desactivat per defecte",
 			'polls:settings:no' => "no",
 			'polls:settings:group_profile_display:title' => "If group polls are activated, where should polls content be displayed in group profiles?",
-			'polls:settings:group_profile_display_option:left' => "left",
-			'polls:settings:group_profile_display_option:right' => "right",
-			'polls:settings:group_profile_display_option:none' => "none",
+			'polls:settings:group_profile_display_option:left' => "esquerra",
+			'polls:settings:group_profile_display_option:right' => "dreta",
+			'polls:settings:group_profile_display_option:none' => "cap",
 			'polls:settings:group_access:title' => "If group polls are activated, who gets to create polls?",
 			'polls:settings:group_access:admins' => "group owners and admins only",
-			'polls:settings:group_access:members' => "any group member",
+			'polls:settings:group_access:members' => "qualsevol membre del grup",
 			'polls:settings:front_page:title' => "Admins can set a front page poll (requires theme support)",
-			'polls:none' => "No polls found.",
-			'polls:permission_error' => "You do not have permission to edit this poll.",
-			'polls:vote' => "Vote",
-			'polls:login' => "Please login if you would like to vote in this poll.",
-			'group:polls:empty' => "No polls",
+			'polls:none' => "Cap enquesta trobada.",
+			'polls:permission_error' => "No tens permís per editar aquesta enquesta.",
+			'polls:vote' => "Vota",
+			'polls:login' => "Si us plau, fes login si vols votar en aquesta enquesta.",
+			'group:polls:empty' => "Cap enquesta",
 			'polls:settings:site_access:title' => "Who can create site-wide polls?",
-			'polls:settings:site_access:admins' => "Admins only",
-			'polls:settings:site_access:all' => "Any logged-in user",
-			'polls:can_not_create' => "You do not have permission to create polls.",
-			'polls:front_page_label' => "Place this poll on the front page.",
+			'polls:settings:site_access:admins' => "Només admins",
+			'polls:settings:site_access:all' => "Qualsevol usuari loggejat",
+			'polls:can_not_create' => "No tens permís per crear enquestes.",
+			'polls:front_page_label' => "Col·loca aquesta enquesta a la pàgina principal.",
 		/**
 	     * poll widget
 	     **/
-			'polls:latest_widget_title' => "Latest community polls",
-			'polls:latest_widget_description' => "Displays the most recent polls.",
-			'polls:my_widget_title' => "My polls",
-			'polls:my_widget_description' => "This widget will display your polls.",
-			'polls:widget:label:displaynum' => "How many polls you want to display?",
-			'polls:individual' => "Latest poll",
-			'poll_individual_group:widget:description' => "Display the latest poll for this group.",
-			'poll_individual:widget:description' => "Display your latest poll",
-			'polls:widget:no_polls' => "There are no polls for %s yet.",
-			'polls:widget:nonefound' => "No polls found.",
+			'polls:latest_widget_title' => "Últimes enquestes de la comunitat",
+			'polls:latest_widget_description' => "Mostra les enquestes més recents.",
+			'polls:my_widget_title' => "Les meves enquestes",
+			'polls:my_widget_description' => "Aquest widget mostrará les teves enquestes.",
+			'polls:widget:label:displaynum' => "Quantes enquestes vols mostrar?",
+			'polls:individual' => "Últimes enquestes",
+			'poll_individual_group:widget:description' => "Mostra les últimes enquestes d'aquest grup.",
+			'poll_individual:widget:description' => "Mostra les teves últimes enquestes",
+			'polls:widget:no_polls' => "Encara no hi han cap enquesta per %s.",
+			'polls:widget:nonefound' => "Cap enquesta trobada.",
 			'polls:widget:think' => "Let %s know what you think!",
-			'polls:enable_polls' => "Enable polls",
-			'polls:group_identifier' => "(in %s)",
-			'polls:noun_response' => "response",
-			'polls:noun_responses' => "responses",
-	        'polls:settings:yes' => "yes",
+			'polls:enable_polls' => "Activar enquestes",
+			'polls:group_identifier' => "(en %s)",
+			'polls:noun_response' => "resposta",
+			'polls:noun_responses' => "respostes",
+	        'polls:settings:yes' => "sí",
 			'polls:settings:no' => "no",
 
 			// notifications
-			'polls:notify:summary' => 'New poll called %s',
+			'polls:notify:summary' => 'Nova enquesta anomenada %s',
 			'polls:notification' =>
 '
-%s created a poll.
+%s ha creat una enquesta.
 
 %s
 
-View and vote on the new poll:
+Vota sobre aquesta nova enquesta:
 %s
 ',
 			
          /**
 	     * poll river
 	     **/
-	        'polls:settings:create_in_river:title' => "Show poll creation in activity river",
-			'polls:settings:vote_in_river:title' => "Show poll voting in activity river",
-			'polls:settings:send_notification:title' => "Send notification when poll is created",
-			'river:create:object:poll' => '%s created a poll %s',
-			'river:vote:object:poll' => '%s voted on the poll %s',
-			'river:comment:object:poll' => '%s commented on the poll %s',
+	        'polls:settings:create_in_river:title' => "Mostra la creació d'enquestes a l'activitat de la plataforma",
+			'polls:settings:vote_in_river:title' => "Mostra els vots a l'activitat de la plataforma",
+			'polls:settings:send_notification:title' => "Enviar notificacions quan l'enquesta s'hagi creat",
+			'river:create:object:poll' => "%s ha creat una enquesta a %s",
+			'river:vote:object:poll' => "%s ha votat a l'enquesta de %s",
+			'river:comment:object:poll' => "%s ha comentat l'enquesta de %s",
 		/**
 		 * Status messages
 		 */
 	
-			'polls:added' => "Your poll was created.",
-			'polls:edited' => "Your poll was saved.",
-			'polls:responded' => "Thank you for responding, your vote was recorded.",
-			'polls:deleted' => "Your poll was successfully deleted.",
-			'polls:totalvotes' => "Total number of votes: ",
-			'polls:voted' => "Your vote has been cast for this poll. Thank you for voting on this poll.",
+			'polls:added' => "La teva enquesta ha estat creada.",
+			'polls:edited' => "La teva enquesta ha estat guardada.",
+			'polls:responded' => "Gràcies per respondre, el teu vot ha estat registrat.",
+			'polls:deleted' => "El teu vot s'ha esborrat correctament.",
+			'polls:totalvotes' => "Vots totals: ",
+			'polls:voted' => "El teu vot ha estat registrat per aquesta enquesta. Gràcies per votar.",
 			
 	
 		/**
 		 * Error messages
 		 */
 	
-			'polls:save:failure' => "Your poll could not be saved. Please try again.",
-			'polls:blank' => "Sorry: you need to fill in both the question and responses before you can make a poll.",
-			'polls:novote' => "Sorry: you need to choose an option to vote in this poll.",
-			'polls:notfound' => "Sorry: we could not find the specified poll.",
-			'polls:nonefound' => "No polls were found from %s",
-			'polls:notdeleted' => "Sorry: we could not delete this poll."
+			'polls:save:failure' => "La teva enquesta no ha estat guardada. Si us plau, torna-ho a provar.",
+			'polls:blank' => "Ho sentim: tens que omplir el camp de pregunta i les respostes abans de guardar l'enquesta.",
+			'polls:novote' => "Ho sentim: tens que escollir una opció per votar en aquesta enquesta.",
+			'polls:notfound' => "Ho sentim: no hem pogut trobar l'enquesta especificada.",
+			'polls:nonefound' => "No s'han trobat enquestes de %s",
+			'polls:notdeleted' => "Ho sentim: no podem esborrar aquesta enquesta."
 	);
 					
-	add_translation("ca",$cat);
+	add_translation("ca", $cat);
 
 ?>
