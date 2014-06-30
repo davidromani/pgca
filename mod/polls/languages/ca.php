@@ -97,7 +97,7 @@ Vota sobre aquesta nova enquesta:
 	        'polls:settings:create_in_river:title' => "Mostra la creació d'enquestes a l'activitat de la plataforma",
 			'polls:settings:vote_in_river:title' => "Mostra els vots a l'activitat de la plataforma",
 			'polls:settings:send_notification:title' => "Enviar notificacions quan l'enquesta s'hagi creat",
-			'river:create:object:poll' => "%s ha creat una enquesta a %s",
+			'river:create:object:poll' => "%s ha creat l'enquesta %s",
 			'river:vote:object:poll' => "%s ha votat a l'enquesta de %s",
 			'river:comment:object:poll' => "%s ha comentat l'enquesta de %s",
 		/**
